@@ -1,0 +1,70 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "StonedValley_IndicaSeeds": {
+                    //Growing Times
+                    "Seasons": [ "spring", "summer", "fall"], //What seasons it can be grown in
+                    "DaysInPhase": [ 2, 2, 2, 4, 4], //How many days per phase e.g. [ (2 days)phase 1, (2 days)phase 2, etc] Total days = 14
+                    "RegrowDays": 7,
+                    //Harvest Data
+                    "HarvestItemId": "StonedValley_IndicaBud",
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack": 8,
+                    "Texture": "DookieMaster.StonedValley/Crops",
+                    "SpriteIndex": 0,
+                },
+                "StonedValley_CbdSeeds": {
+                    //Growing Times
+                    "Seasons": [ "spring", "summer", "fall"], //What seasons it can be grown in
+                    "DaysInPhase": [ 1, 1, 2, 2, 4], //How many days per phase e.g. [ (2 days)phase 1, (2 days)phase 2, etc] Total days = 10
+                    "RegrowDays": 4,
+                    //Harvest Data
+                    "HarvestItemId": "StonedValley_CbdBud",
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack": 8,
+                    "Texture": "DookieMaster.StonedValley/Crops",
+                    "SpriteIndex": 2,
+                },
+                "StonedValley_HempSeeds": {
+                    //Growing Times
+                    "Seasons": [ "spring", "summer", "fall"], //What seasons it can be grown in
+                    "DaysInPhase": [ 2, 2, 4, 4], //How many days per phase e.g. [ (2 days)phase 1, (2 days)phase 2, etc] Total days = 12
+                    "RegrowDays": 4,
+                    //Harvest Data
+                    "HarvestItemId": "StonedValley_HempBud",
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack": 5,
+                    "Texture": "DookieMaster.StonedValley/Crops",
+                    "SpriteIndex": 4,
+                },
+                "StonedValley_HybridSeeds": {
+                    //Growing Times
+                    "Seasons": [ "spring", "summer", "fall"], //What seasons it can be grown in
+                    "DaysInPhase": [ 2, 2, 2, 4, 4], //How many days per phase e.g. [ (2 days)phase 1, (2 days)phase 2, etc] Total days = 14
+                    "RegrowDays": 7,
+                    //Harvest Data
+                    "HarvestItemId": "StonedValley_HybridBud",
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack": 8,
+                    "Texture": "DookieMaster.StonedValley/Crops",
+                    "SpriteIndex": 1,
+                },
+                "StonedValley_SativaSeeds": {
+                    //Growing Times
+                    "Seasons": [ "spring", "summer", "fall"], //What seasons it can be grown in
+                    "DaysInPhase": [ 2, 2, 2, 4, 4], //How many days per phase e.g. [ (2 days)phase 1, (2 days)phase 2, etc] Total days = 14
+                    "RegrowDays": 7,
+                    //Harvest Data
+                    "HarvestItemId": "StonedValley_SativaBud",
+                    "HarvestMinStack": 3,
+                    "HarvestMaxStack": 8,
+                    "Texture": "DookieMaster.StonedValley/Crops",
+                    "SpriteIndex": 3,
+                }
+            }
+        },
+    ]
+}
