@@ -463,9 +463,9 @@
                             "Id": "StonedValley.StonedValley_HempFiber",
                             "Triggers": [
                                 {
-                                    "Trigger":"ItemPlacedInMachine",
+                                    "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(0)StonedValley_HempBud",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 2,
                                 }
                             ],
                             "OutputItem":[
