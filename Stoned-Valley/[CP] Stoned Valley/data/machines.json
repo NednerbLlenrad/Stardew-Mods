@@ -370,7 +370,7 @@
                         }
                     ]
                 },
-                "(BC)StonedVally.HashPress": {
+                "(BC)StonedValley.HashPress": {
                     "HasInput": false,
                     "HasOutput": false,
                     "OutputRules": [
@@ -455,7 +455,7 @@
                         }
                     ]
                 },
-                "StonedValley.HempRack": {
+                "(BC)StonedValley.HempRack": {
                     "HasInput": false,
                     "HasOutput": false,
                     "OutputRules": [

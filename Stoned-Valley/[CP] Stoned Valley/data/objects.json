@@ -7,7 +7,7 @@
             "Entries": {
                 "StonedValley_SativaBud": {
                     "Name": "StonedValley_SativaBud",
-                    "Displayname": "Sativa Bud",
+                    "DisplayName": "Sativa Bud",
                     "Description": "An uplifiting and energetic strain of cannabis.",
                     "Type": "Basic",
                     "Category": -75,
@@ -21,7 +21,7 @@
                 },
                 "StonedValley_IndicaBud": {
                     "Name": "StonedValley_IndicaBud",
-                    "Displayname": "Indica Bud",
+                    "DisplayName": "Indica Bud",
                     "Description": "A relaxing and creative strain of cannabis.",
                     "Type": "Basic",
                     "Category": -75,
@@ -35,7 +35,7 @@
                 },
                 "StonedValley_HybridBud": {
                         "Name": "StonedValley_HybridBud",
-                        "Displayname": "Hybrid Bud",
+                        "DisplayName": "Hybrid Bud",
                         "Description": "A happy and soothing strain of cannabis.",
                         "Type": "Basic",
                         "Category": -75,
@@ -49,7 +49,7 @@
                 },
                 "StonedValley_CbdBud": {
                     "Name": "StonedValley_CbdBud",
-                    "Displayname": "Cbd Bud",
+                    "DisplayName": "Cbd Bud",
                     "Description": "A relaxing plant that cures aches and cannabis.",
                     "Type": "Basic",
                     "Category": -75,
@@ -63,7 +63,7 @@
                 },
                 "StonedValley_HempBud": {
                     "Name": "StonedValley_HempBud",
-                    "Displayname": "Hemp Bud",
+                    "DisplayName": "Hemp Bud",
                     "Description": "A tough and fibourous plant with many uses.",
                     "Type": "Basic",
                     "Category": -75,
@@ -84,7 +84,7 @@
             "Entries": {
                 "StonedValley_SativaSeeds": { 
                 "Name": "StonedValley_SativaSeeds", 
-                "Displayname": "Sativa Seeds", 
+                "DisplayName": "Sativa Seeds", 
                 "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
@@ -94,7 +94,7 @@
             },
                 "StonedValley_IndicaSeeds": { //Item Object
                 "Name": "StonedValley_IndicaSeeds", //Item ID
-                "Displayname": "Indica Seeds", //Name in game
+                "DisplayName": "Indica Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
@@ -104,7 +104,7 @@
             },
                 "StonedValley_HybridSeeds": { //Item Object
                 "Name": "StonedValley_HybridSeeds", //Item ID
-                "Displayname": "Hybrid Seeds", //Name in game
+                "DisplayName": "Hybrid Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
@@ -114,7 +114,7 @@
             },
                 "StonedValley_CbdSeeds": { //Item Object
                 "Name": "StonedValley_CbdSeeds", //Item ID
-                "Displayname": "CBD Seeds", //Name in game
+                "DisplayName": "CBD Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 10 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
@@ -124,7 +124,7 @@
             },
                 "StonedValley_HempSeeds": { //Item Object
                 "Name": "StonedValley_HempSeeds", //Item ID
-                "Displayname": "Hemp Seeds", //Name in game
+                "DisplayName": "Hemp Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 12 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
@@ -142,7 +142,7 @@
             "Entries": {
                 "StonedValley_CbdJoint": {
                     "Name": "StonedValley_CbdJoint",
-                    "Displayname": "CBD Joint",
+                    "DisplayName": "CBD Joint",
                     "Description": "A relaxing body high that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
@@ -179,7 +179,7 @@
                 },
                 "StonedValley_HybridJoint": {
                     "Name": "StonedValley_HybridJoint",
-                    "Displayname": "Hybrid Joint",
+                    "DisplayName": "Hybrid Joint",
                     "Description": "A happy and soothing cannabis joint.",
                     "Type": "Basic",
                     "Category": -16,
@@ -216,7 +216,7 @@
                 },
                 "StonedValley_IndicaJoint": {
                     "Name": "StonedValley_IndicaJoint",
-                    "Displayname": "Indica Joint",
+                    "DisplayName": "Indica Joint",
                     "Description": "A relaxing and creative joint.",
                     "Type": "Basic",
                     "Category": -16,
@@ -253,7 +253,7 @@
                 },
                 "StonedValley_SativaJoint": {
                     "Name": "StonedValley_SativaJoint",
-                    "Displayname": "Sativa Joint",
+                    "DisplayName": "Sativa Joint",
                     "Description": "An uplifiting and energetic joint.",
                     "Type": "Basic",
                     "Category": -16,
@@ -303,7 +303,7 @@
                 },
                 "StonedValley_CbdBlunt": {
                     "Name": "StonedValley_CbdBlunt",
-                    "Displayname": "CBD Blunt",
+                    "DisplayName": "CBD Blunt",
                     "Description": "A relaxing body high that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
@@ -340,7 +340,7 @@
                 },
                 "StonedValley_HybridBlunt": {
                     "Name": "StonedValley_HybridBlunt",
-                    "Displayname": "Hybrid Blunt",
+                    "DisplayName": "Hybrid Blunt",
                     "Description": "A happy and soothing cannabis blunt.",
                     "Type": "Basic",
                     "Category": -16,
@@ -377,7 +377,7 @@
                 },
                 "StonedValley_IndicaBlunt": {
                     "Name": "StonedValley_IndicaBlunt",
-                    "Displayname": "Indica Blunt",
+                    "DisplayName": "Indica Blunt",
                     "Description": "A relaxing and creative Blunt.",
                     "Type": "Basic",
                     "Category": -16,
@@ -414,7 +414,7 @@
                 },
                 "StonedValley_SativaBlunt": {
                     "Name": "StonedValley_Sativa Blunt",
-                    "Displayname": "Sativa Blunt",
+                    "DisplayName": "Sativa Blunt",
                     "Description": "An uplifiting and energetic Blunt.",
                     "Type": "Basic",
                     "Category": -16,
@@ -464,7 +464,7 @@
                 },
                 "StonedValley_CbdRoseBlunt": {
                     "Name": "StonedValley_CbdRoseBlunt",
-                    "Displayname": "CBD Rose Blunt",
+                    "DisplayName": "CBD Rose Blunt",
                     "Description": "A relaxing body high that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
@@ -501,7 +501,7 @@
                 },
                 "StonedValley_HybridRoseBlunt": {
                     "Name": "StonedValley_HybridRoseBlunt",
-                    "Displayname": "Hybrid Rose Blunt",
+                    "DisplayName": "Hybrid Rose Blunt",
                     "Description": "A happy and soothing cannabis rose blunt.",
                     "Type": "Basic",
                     "Category": -16,
@@ -538,7 +538,7 @@
                 },
                 "StonedValley_IndicaRoseBlunt": {
                     "Name": "StonedValley_IndicaRoseBlunt",
-                    "Displayname": "Indica Rose Blunt",
+                    "DisplayName": "Indica Rose Blunt",
                     "Description": "A relaxing and creative rose blunt.",
                     "Type": "Basic",
                     "Category": -16,
@@ -575,7 +575,7 @@
                 },
                 "StonedValley_SativaRoseBlunt": {
                     "Name": "StonedValley_SativaRoseBlunt",
-                    "Displayname": "Sativa Rose Blunt",
+                    "DisplayName": "Sativa Rose Blunt",
                     "Description": "An uplifiting and energetic Rose Blunt.",
                     "Type": "Basic",
                     "Category": -16,
@@ -626,7 +626,7 @@
                 //Wax
                 "StonedValley_CbdHash": {
                     "Name": "StonedValley_CbdHash",
-                    "Displayname": "CBD Hash",
+                    "DisplayName": "CBD Hash",
                     "Description": "A relaxing body high that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
@@ -663,7 +663,7 @@
                 },
                 "StonedValley_HybridHash": {
                     "Name": "StonedValley_HybridHash",
-                    "Displayname": "Hybrid Hash",
+                    "DisplayName": "Hybrid Hash",
                     "Description": "A happy and soothing cannabis strain.",
                     "Type": "Basic",
                     "Category": -16,
@@ -700,7 +700,7 @@
                 },
                 "StonedValley_IndicaHash": {
                     "Name": "StonedValley_IndicaHash",
-                    "Displayname": "Indica Hash",
+                    "DisplayName": "Indica Hash",
                     "Description": "A relaxing and creative hash oil.",
                     "Type": "Basic",
                     "Category": -16,
@@ -737,7 +737,7 @@
                 },
                 "StonedValley_SativaHash":{
                     "Name": "StonedValley_SativaHash",
-                    "Displayname": "Sativa Rose Hash",
+                    "DisplayName": "Sativa Rose Hash",
                     "Description": "An uplifiting and energetic hash.",
                     "Type": "Basic",
                     "Category": -16,
@@ -775,7 +775,7 @@
                 //Oil
                 "StonedValley_CbdOil": {
                     "Name": "StonedValley_CbdOil",
-                    "Displayname": "CBD Oil",
+                    "DisplayName": "CBD Oil",
                     "Description": "A relaxing body high that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
@@ -812,7 +812,7 @@
                 },
                 "StonedValley_HybridOil": {
                     "Name": "StonedValley_HybridOil",
-                    "Displayname": "Hybrid Oil",
+                    "DisplayName": "Hybrid Oil",
                     "Description": "A happy and soothing cannabis strain.",
                     "Type": "Basic",
                     "Category": -16,
@@ -849,7 +849,7 @@
                 },
                 "StonedValley_IndicaOil": {
                     "Name": "StonedValley_IndicaOil",
-                    "Displayname": "Indica Oil",
+                    "DisplayName": "Indica Oil",
                     "Description": "A relaxing and creative oil.",
                     "Type": "Basic",
                     "Category": -16,
@@ -886,7 +886,7 @@
                 },
                 "StonedValley_SativaOil":{
                     "Name": "StonedValley_SativaOil",
-                    "Displayname": "Sativa Oil",
+                    "DisplayName": "Sativa Oil",
                     "Description": "An uplifiting and energetic oil.",
                     "Type": "Basic",
                     "Category": -16,
@@ -924,7 +924,7 @@
                 //Gummies
                 "StonedValley_CbdGummy": {
                     "Name": "StonedValley_CbdGummy",
-                    "Displayname": "CBD Gummy",
+                    "DisplayName": "CBD Gummy",
                     "Description": "A relaxing body high that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
@@ -961,7 +961,7 @@
                 },
                 "StonedValley_HybridGummy": {
                     "Name": "StonedValley_HybridGummy",
-                    "Displayname": "Hybrid Gummy",
+                    "DisplayName": "Hybrid Gummy",
                     "Description": "A happy and soothing cannabis strain.",
                     "Type": "Basic",
                     "Category": -16,
@@ -998,7 +998,7 @@
                 },
                 "StonedValley_IndicaGummy": {
                     "Name": "StonedValley_IndicaGummy",
-                    "Displayname": "Indica Gummy",
+                    "DisplayName": "Indica Gummy",
                     "Description": "A relaxing and creative hash oil.",
                     "Type": "Basic",
                     "Category": -16,
@@ -1035,7 +1035,7 @@
                 },
                 "StonedValley_SativaGummy":{
                     "Name": "StonedValley_SativaGummy",
-                    "Displayname": "Sativa Rose Blunt",
+                    "DisplayName": "Sativa Rose Blunt",
                     "Description": "An uplifiting and energetic Rose Blunt.",
                     "Type": "Basic",
                     "Category": -16,
