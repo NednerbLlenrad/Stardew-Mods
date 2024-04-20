@@ -460,18 +460,18 @@
                     "HasOutput": false,
                     "OutputRules": [
                         {
-                            "Id": "StonedValley.StonedValley_HempFiber",
+                            "Id": "StonedValley.StonedValley_DryHempFiber",
                             "Triggers": [
                                 {
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(0)StonedValley_HempBud",
+                                    "RequiredItemId": "(O)StonedValley_HempBud",
                                     "RequiredCount": 1,
                                 }
                             ],
                             "OutputItem": [
                                 {
-                                    "Id": "StonedValley.StonedValley_HempFiber",
-                                    "ItemId": "(0)StonedValley_HempFiber",
+                                    "Id": "StonedValley.StonedValley_DryHempFiber",
+                                    "ItemId": "(0)StonedValley_DryHempFiber",
                                     "CopyQuality": true,
                                 }
                             ],

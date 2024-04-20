@@ -1071,12 +1071,12 @@
                     ] 
                 },
                 //HempFiber
-                "StonedValley_HempFiber": {
-                    "Name": "StonedValley_HempFiber",
-                    "DisplayName": "Hemp Fiber",
+                "StonedValley_DryHempFiber": {
+                    "Name": "StonedValley_DryHempFiber",
+                    "DisplayName": "Dried Hemp Fiber",
                     "Description": "A tough plant fiber that can be used to make cloth.",
                     "Type": "Basic",
-                    "Category": -8,
+                    "Category": -16,
                     "Price": 40,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 17,
