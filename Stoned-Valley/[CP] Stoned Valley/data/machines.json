@@ -465,10 +465,10 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(0)StonedValley_HempBud",
-                                    "RequiredCount": 2,
+                                    "RequiredCount": 1,
                                 }
                             ],
-                            "OutputItem":[
+                            "OutputItem": [
                                 {
                                     "Id": "StonedValley.StonedValley_HempFiber",
                                     "ItemId": "(0)StonedValley_HempFiber",
