@@ -6,10 +6,10 @@
             "Action": "EditData",
             "Target": "Data/CookingRecipes",
             "Entries": {
-                "StonedValley_CbdGummy": "StonedValley_CbdOil 1 245 1/60 60/StonedValley_CbdGummy/default",
-                "StonedValley_IndicaGummy": "StonedValley_IndicaOil 1 245 1/60 60/StonedValley_IndicaGummy/default",
-                "StonedValley_SativaGummy": "StonedValley_SativaOil 1 245 1/60 60/StonedValley_SativaGummy/default",
-                "StonedValley_HybridGummy": "StonedValley_HybridOil 1 245 1/60 60/StonedValley_HybridGummy/default",
+                "StonedValley_CbdGummy": "StonedValley_CbdOil 1 245 1/60 60/StonedValley_CbdGummy 1/default",
+                "StonedValley_IndicaGummy": "StonedValley_IndicaOil 1 245 1/60 60/StonedValley_IndicaGummy 1/default",
+                "StonedValley_SativaGummy": "StonedValley_SativaOil 1 245 1/60 60/StonedValley_SativaGummy 1/default",
+                "StonedValley_HybridGummy": "StonedValley_HybridOil 1 245 1/60 60/StonedValley_HybridGummy 1/default",
             }
         },
         //Crafting Recipes
@@ -17,10 +17,10 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": { 
-                "StonedValley_BluntWrap": "StonedValley_HempFiber 1 / Home / StonedValley_BluntWraps/ false/ default)",
-                "StonedValley_RoseBluntWrap": "595 1 / Home / StonedValley_RoseWraps / false/ default)",
-                "StonedValley_Wrap": "172 1 / Home / StonedValley_Wraps/ false/ default)",
-                "Cloth": "StonedValley_HempFiber 10 / Home / 428/ false/ default)"
+                "StonedValley_BluntWrap": "StonedValley_HempFiber 1 / Home / StonedValley_BluntWraps 1/ false/ f Linus 2)",
+                "StonedValley_RoseBluntWrap": "595 1 / Home / StonedValley_RoseWraps 1/ false/ f Linus 3)",
+                "StonedValley_Wrap": "172 1 / Home / StonedValley_Wraps 1/ false/ f Linus 1)",
+                "Cloth": "StonedValley_HempFiber 10 / Home / 428 1/ false/ f Emily 3)"
             }
         }
     ]
