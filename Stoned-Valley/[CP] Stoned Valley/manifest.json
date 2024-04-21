@@ -5,8 +5,8 @@
     "Description": "Become the valley's master budtender, as you grow and sell various strains and infused products!",
     "UniqueID": "DookieMaster.StonedValley",
     "MinimumApiVersion": "4.0.0",
-    "UpdateKeys": [], // when you release the mod, see https://stardewvalleywiki.com/Modding:Modder_Guide/APIs/Update_checks
+    "UpdateKeys": [ "Nexus:22873"],
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
-    },
+    }
 }

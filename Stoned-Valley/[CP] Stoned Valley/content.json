@@ -31,6 +31,12 @@
             "AllowValues": "Base",
             "Default": "Base",
             "AllowBlank": false
+        },
+        "GrinderColor": {
+            "Description": "Option to choose your grinder color. Defaults to base brown color.",
+            "AllowValues": "Base",
+            "Default": "Base",
+            "AllowBlank": false
         }
     },
     "Changes": [

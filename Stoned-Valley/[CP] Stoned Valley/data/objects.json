@@ -5,8 +5,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "StonedValley_SativaBud": {
-                    "Name": "StonedValley_SativaBud",
+                "StonedValley.SativaBud": {
+                    "Name": "StonedValley.SativaBud",
                     "DisplayName": "Sativa Bud",
                     "Description": "An uplifiting and energetic strain of cannabis.",
                     "Type": "Basic",
@@ -19,8 +19,8 @@
                         "color_orange"
                     ]
                 },
-                "StonedValley_IndicaBud": {
-                    "Name": "StonedValley_IndicaBud",
+                "StonedValley.IndicaBud": {
+                    "Name": "StonedValley.IndicaBud",
                     "DisplayName": "Indica Bud",
                     "Description": "A relaxing and creative strain of cannabis.",
                     "Type": "Basic",
@@ -33,8 +33,8 @@
                         "color_purple"
                     ]
                 },
-                "StonedValley_HybridBud": {
-                        "Name": "StonedValley_HybridBud",
+                "StonedValley.HybridBud": {
+                        "Name": "StonedValley.HybridBud",
                         "DisplayName": "Hybrid Bud",
                         "Description": "A happy and soothing strain of cannabis.",
                         "Type": "Basic",
@@ -47,8 +47,8 @@
                             "color_green"
                         ]
                 },
-                "StonedValley_CbdBud": {
-                    "Name": "StonedValley_CbdBud",
+                "StonedValley.CbdBud": {
+                    "Name": "StonedValley.CbdBud",
                     "DisplayName": "Cbd Bud",
                     "Description": "A relaxing plant that cures aches and cannabis.",
                     "Type": "Basic",
@@ -61,8 +61,8 @@
                         "color_jade"
                     ]
                 },
-                "StonedValley_HempBud": {
-                    "Name": "StonedValley_HempBud",
+                "StonedValley.HempBud": {
+                    "Name": "StonedValley.HempBud",
                     "DisplayName": "Hemp Bud",
                     "Description": "A tough and fibourous plant with many uses.",
                     "Type": "Basic",
@@ -82,55 +82,55 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "StonedValley_SativaSeeds": { 
-                "Name": "StonedValley_SativaSeeds", 
+                "StonedValley.SativaSeeds": { 
+                "Name": "StonedValley.SativaSeeds", 
                 "DisplayName": "Sativa Seeds", 
                 "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 100, 
                 "Texture": "DookieMaster.StonedValley/Objects",
-                "SpriteIndex": 7,
+                "SpriteIndex": 7
             },
-                "StonedValley_IndicaSeeds": { //Item Object
-                "Name": "StonedValley_IndicaSeeds", //Item ID
+                "StonedValley.IndicaSeeds": { //Item Object
+                "Name": "StonedValley.IndicaSeeds", //Item ID
                 "DisplayName": "Indica Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 100, 
                 "Texture": "DookieMaster.StonedValley/Objects",
-                "SpriteIndex": 1,
+                "SpriteIndex": 1
             },
-                "StonedValley_HybridSeeds": { //Item Object
-                "Name": "StonedValley_HybridSeeds", //Item ID
+                "StonedValley.HybridSeeds": { //Item Object
+                "Name": "StonedValley.HybridSeeds", //Item ID
                 "DisplayName": "Hybrid Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 100, 
                 "Texture": "DookieMaster.StonedValley/Objects",
-                "SpriteIndex": 3,
+                "SpriteIndex": 3
             },
-                "StonedValley_CbdSeeds": { //Item Object
-                "Name": "StonedValley_CbdSeeds", //Item ID
+                "StonedValley.CbdSeeds": { //Item Object
+                "Name": "StonedValley.CbdSeeds", //Item ID
                 "DisplayName": "CBD Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 10 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 80, 
                 "Texture": "DookieMaster.StonedValley/Objects",
-                "SpriteIndex": 5,
+                "SpriteIndex": 5
             },
-                "StonedValley_HempSeeds": { //Item Object
-                "Name": "StonedValley_HempSeeds", //Item ID
+                "StonedValley.HempSeeds": { //Item Object
+                "Name": "StonedValley.HempSeeds", //Item ID
                 "DisplayName": "Hemp Seeds", //Name in game
                 "Description": "Plant in any season except winter. Takes 12 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 50, 
                 "Texture": "DookieMaster.StonedValley/Objects",
-                "SpriteIndex": 9,
+                "SpriteIndex": 9
             }
             }
         },
@@ -140,10 +140,10 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "StonedValley_CbdJoint": {
-                    "Name": "StonedValley_CbdJoint",
+                "StonedValley.CbdJoint": {
+                    "Name": "StonedValley.CbdJoint",
                     "DisplayName": "CBD Joint",
-                    "Description": "A relaxing body high that soothes aches and pains.",
+                    "Description": "A relaxing joint that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 60,
@@ -177,8 +177,8 @@
                         "color_dark_green"
                     ]
                 },
-                "StonedValley_HybridJoint": {
-                    "Name": "StonedValley_HybridJoint",
+                "StonedValley.HybridJoint": {
+                    "Name": "StonedValley.HybridJoint",
                     "DisplayName": "Hybrid Joint",
                     "Description": "A happy and soothing cannabis joint.",
                     "Type": "Basic",
@@ -214,8 +214,8 @@
                         "color_green"
                     ]
                 },
-                "StonedValley_IndicaJoint": {
-                    "Name": "StonedValley_IndicaJoint",
+                "StonedValley.IndicaJoint": {
+                    "Name": "StonedValley.IndicaJoint",
                     "DisplayName": "Indica Joint",
                     "Description": "A relaxing and creative joint.",
                     "Type": "Basic",
@@ -251,15 +251,15 @@
                         "color_purple"
                     ]
                 },
-                "StonedValley_SativaJoint": {
-                    "Name": "StonedValley_SativaJoint",
+                "StonedValley.SativaJoint": {
+                    "Name": "StonedValley.SativaJoint",
                     "DisplayName": "Sativa Joint",
                     "Description": "An uplifiting and energetic joint.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 100,
                     "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 12,
+                    "SpriteIndex": 15,
                     "Edibility": 15,
                     "Buffs": [
                         {
@@ -288,8 +288,8 @@
                         "color_orange"
                     ]
                 },
-                "StonedValley_Wraps": {
-                    "Name": "StonedValley_Wraps",
+                "StonedValley.Wraps": {
+                    "Name": "StonedValley.Wraps",
                     "DisplayName": "Wraps",
                     "Description": "Used for wrapping various 'herbs' into smokeable versions.",
                     "Type": "Basic",
@@ -299,12 +299,12 @@
                     "SpriteIndex": 10,
                     "Edibility": -300,
                     "ContextTags": null,
-                    "CustomFields": null,
+                    "CustomFields": null
                 },
-                "StonedValley_CbdBlunt": {
-                    "Name": "StonedValley_CbdBlunt",
+                "StonedValley.CbdBlunt": {
+                    "Name": "StonedValley.CbdBlunt",
                     "DisplayName": "CBD Blunt",
-                    "Description": "A relaxing body high that soothes aches and pains.",
+                    "Description": "A relaxing blunt that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 80,
@@ -338,8 +338,8 @@
                         "color_light_green"
                     ]
                 },
-                "StonedValley_HybridBlunt": {
-                    "Name": "StonedValley_HybridBlunt",
+                "StonedValley.HybridBlunt": {
+                    "Name": "StonedValley.HybridBlunt",
                     "DisplayName": "Hybrid Blunt",
                     "Description": "A happy and soothing cannabis blunt.",
                     "Type": "Basic",
@@ -375,10 +375,10 @@
                         "color_green"
                     ]
                 },
-                "StonedValley_IndicaBlunt": {
-                    "Name": "StonedValley_IndicaBlunt",
+                "StonedValley.IndicaBlunt": {
+                    "Name": "StonedValley.IndicaBlunt",
                     "DisplayName": "Indica Blunt",
-                    "Description": "A relaxing and creative Blunt.",
+                    "Description": "A relaxing and creative blunt.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 150,
@@ -412,10 +412,10 @@
                         "color_purple"
                     ]
                 },
-                "StonedValley_SativaBlunt": {
-                    "Name": "StonedValley_Sativa Blunt",
+                "StonedValley.SativaBlunt": {
+                    "Name": "StonedValley.Sativa Blunt",
                     "DisplayName": "Sativa Blunt",
-                    "Description": "An uplifiting and energetic Blunt.",
+                    "Description": "An uplifiting and energetic blunt.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 150,
@@ -449,8 +449,8 @@
                         "color_orange"
                     ]
                 },
-                "StonedValley_BluntWraps": {
-                    "Name": "StonedValley_BluntWraps",
+                "StonedValley.BluntWraps": {
+                    "Name": "StonedValley.BluntWraps",
                     "DisplayName": "Blunt Wraps",
                     "Description": "A hemp wrap used for rolling various blunts.",
                     "Type": "Basic",
@@ -462,10 +462,10 @@
                     "ContextTags": null,
                     "CustomFields": null,
                 },
-                "StonedValley_CbdRoseBlunt": {
-                    "Name": "StonedValley_CbdRoseBlunt",
+                "StonedValley.CbdRoseBlunt": {
+                    "Name": "StonedValley.CbdRoseBlunt",
                     "DisplayName": "CBD Rose Blunt",
-                    "Description": "A relaxing body high that soothes aches and pains.",
+                    "Description": "A relaxing rose blunt that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 120,
@@ -499,8 +499,8 @@
                         "color_light_green"
                     ]
                 },
-                "StonedValley_HybridRoseBlunt": {
-                    "Name": "StonedValley_HybridRoseBlunt",
+                "StonedValley.HybridRoseBlunt": {
+                    "Name": "StonedValley.HybridRoseBlunt",
                     "DisplayName": "Hybrid Rose Blunt",
                     "Description": "A happy and soothing cannabis rose blunt.",
                     "Type": "Basic",
@@ -536,8 +536,8 @@
                         "color_green"
                     ]
                 },
-                "StonedValley_IndicaRoseBlunt": {
-                    "Name": "StonedValley_IndicaRoseBlunt",
+                "StonedValley.IndicaRoseBlunt": {
+                    "Name": "StonedValley.IndicaRoseBlunt",
                     "DisplayName": "Indica Rose Blunt",
                     "Description": "A relaxing and creative rose blunt.",
                     "Type": "Basic",
@@ -573,10 +573,10 @@
                         "color_purple"
                     ]
                 },
-                "StonedValley_SativaRoseBlunt": {
-                    "Name": "StonedValley_SativaRoseBlunt",
+                "StonedValley.SativaRoseBlunt": {
+                    "Name": "StonedValley.SativaRoseBlunt",
                     "DisplayName": "Sativa Rose Blunt",
-                    "Description": "An uplifiting and energetic Rose Blunt.",
+                    "Description": "An uplifiting and energetic rose blunt.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 250,
@@ -610,8 +610,8 @@
                         "color_orange"
                     ]
                 },
-                "StonedValley_RoseWraps": {
-                    "Name": "StonedValley_RoseWraps",
+                "StonedValley.RoseWraps": {
+                    "Name": "StonedValley.RoseWraps",
                     "DisplayName": "Rose Wraps",
                     "Description": "A rose petal wrap used for rolling various blunts.",
                     "Type": "Basic",
@@ -621,13 +621,13 @@
                     "SpriteIndex": 16,
                     "Edibility": -300,
                     "ContextTags": null,
-                    "CustomFields": null,
+                    "CustomFields": null
                 },
                 //Wax
-                "StonedValley_CbdHash": {
-                    "Name": "StonedValley_CbdHash",
+                "StonedValley.CbdHash": {
+                    "Name": "StonedValley.CbdHash",
                     "DisplayName": "CBD Hash",
-                    "Description": "A relaxing body high that soothes aches and pains.",
+                    "Description": "A relaxing hash oil that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 120,
@@ -661,10 +661,10 @@
                         "color_light_green"
                     ]
                 },
-                "StonedValley_HybridHash": {
-                    "Name": "StonedValley_HybridHash",
+                "StonedValley.HybridHash": {
+                    "Name": "StonedValley.HybridHash",
                     "DisplayName": "Hybrid Hash",
-                    "Description": "A happy and soothing cannabis strain.",
+                    "Description": "A happy and soothing hash oil.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 250,
@@ -698,8 +698,8 @@
                         "color_green"
                     ]
                 },
-                "StonedValley_IndicaHash": {
-                    "Name": "StonedValley_IndicaHash",
+                "StonedValley.IndicaHash": {
+                    "Name": "StonedValley.IndicaHash",
                     "DisplayName": "Indica Hash",
                     "Description": "A relaxing and creative hash oil.",
                     "Type": "Basic",
@@ -735,10 +735,10 @@
                         "color_purple"
                     ]
                 },
-                "StonedValley_SativaHash":{
-                    "Name": "StonedValley_SativaHash",
+                "StonedValley.SativaHash":{
+                    "Name": "StonedValley.SativaHash",
                     "DisplayName": "Sativa Rose Hash",
-                    "Description": "An uplifiting and energetic hash.",
+                    "Description": "An uplifiting and energetic hash oil.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 250,
@@ -773,10 +773,10 @@
                     ] 
                 },
                 //Oil
-                "StonedValley_CbdOil": {
-                    "Name": "StonedValley_CbdOil",
+                "StonedValley.CbdOil": {
+                    "Name": "StonedValley.CbdOil",
                     "DisplayName": "CBD Oil",
-                    "Description": "A relaxing body high that soothes aches and pains.",
+                    "Description": "A relaxing oil that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 120,
@@ -810,10 +810,10 @@
                         "color_light_green"
                     ]
                 },
-                "StonedValley_HybridOil": {
-                    "Name": "StonedValley_HybridOil",
+                "StonedValley.HybridOil": {
+                    "Name": "StonedValley.HybridOil",
                     "DisplayName": "Hybrid Oil",
-                    "Description": "A happy and soothing cannabis strain.",
+                    "Description": "A happy and soothing oil.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 250,
@@ -847,8 +847,8 @@
                         "color_green"
                     ]
                 },
-                "StonedValley_IndicaOil": {
-                    "Name": "StonedValley_IndicaOil",
+                "StonedValley.IndicaOil": {
+                    "Name": "StonedValley.IndicaOil",
                     "DisplayName": "Indica Oil",
                     "Description": "A relaxing and creative oil.",
                     "Type": "Basic",
@@ -884,8 +884,8 @@
                         "color_purple"
                     ]
                 },
-                "StonedValley_SativaOil":{
-                    "Name": "StonedValley_SativaOil",
+                "StonedValley.SativaOil":{
+                    "Name": "StonedValley.SativaOil",
                     "DisplayName": "Sativa Oil",
                     "Description": "An uplifiting and energetic oil.",
                     "Type": "Basic",
@@ -922,10 +922,10 @@
                     ] 
                 },
                 //Gummies
-                "StonedValley_CbdGummy": {
-                    "Name": "StonedValley_CbdGummy",
+                "StonedValley.CbdGummy": {
+                    "Name": "StonedValley.CbdGummy",
                     "DisplayName": "CBD Gummy",
-                    "Description": "A relaxing body high that soothes aches and pains.",
+                    "Description": "A relaxing gummy that soothes aches and pains.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 200,
@@ -959,10 +959,10 @@
                         "color_light_green"
                     ]
                 },
-                "StonedValley_HybridGummy": {
-                    "Name": "StonedValley_HybridGummy",
+                "StonedValley.HybridGummy": {
+                    "Name": "StonedValley.HybridGummy",
                     "DisplayName": "Hybrid Gummy",
-                    "Description": "A happy and soothing cannabis strain.",
+                    "Description": "A happy and soothing gummy.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 300,
@@ -996,10 +996,10 @@
                         "color_green"
                     ]
                 },
-                "StonedValley_IndicaGummy": {
-                    "Name": "StonedValley_IndicaGummy",
+                "StonedValley.IndicaGummy": {
+                    "Name": "StonedValley.IndicaGummy",
                     "DisplayName": "Indica Gummy",
-                    "Description": "A relaxing and creative hash oil.",
+                    "Description": "A relaxing and creative gummy.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 300,
@@ -1033,10 +1033,10 @@
                         "color_purple"
                     ]
                 },
-                "StonedValley_SativaGummy":{
-                    "Name": "StonedValley_SativaGummy",
+                "StonedValley.SativaGummy":{
+                    "Name": "StonedValley.SativaGummy",
                     "DisplayName": "Sativa Rose Gummy",
-                    "Description": "An uplifiting and energetic Rose Blunt.",
+                    "Description": "An uplifiting and energetic gummy.",
                     "Type": "Basic",
                     "Category": -16,
                     "Price": 300,
@@ -1070,9 +1070,158 @@
                         "color_orange"
                     ] 
                 },
+                //Brownies
+                "StonedValley.CbdBrownie": {
+                    "Name": "StonedValley.CbdBrownie",
+                    "DisplayName": "CBD Brownie",
+                    "Description": "A relaxing brownie that soothes aches and pains.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 300,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 50,
+                    "Edibility": 40,
+                    "Buffs": [
+                        {
+                            "Id": "Relaxed",
+                            "BuffId": null,
+                            "IconTexture": "DookieMaster.StonedValley/Buffs",
+                            "IconSpriteIndex": 0,
+                            "Duration": 540,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 90.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 2.0,
+                                "Defense": 2.0,
+                                "Attack": 0.0
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "color_light_green"
+                    ]
+                },
+                "StonedValley.HybridBrownie": {
+                    "Name": "StonedValley.HybridBrownie",
+                    "DisplayName": "Hybrid Brownie",
+                    "Description": "A happy and soothing brownie.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 350,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 49,
+                    "Edibility": 30,
+                    "Buffs": [
+                        {
+                            "Id": "High (Hybrid)",
+                            "BuffId": null,
+                            "IconTexture": "DookieMaster.StonedValley/Buffs",
+                            "IconSpriteIndex": 1,
+                            "Duration": 540,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 3.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": -3.0,
+                                "Attack": -3.0
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "color_green"
+                    ]
+                },
+                "StonedValley.IndicaBrownie": {
+                    "Name": "StonedValley.IndicaBrownie",
+                    "DisplayName": "Indica Brownie",
+                    "Description": "A relaxing and creative brownie.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 350,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 48,
+                    "Edibility": -20,
+                    "Buffs": [
+                        {
+                            "Id": "High (Indica)",
+                            "BuffId": null,
+                            "IconTexture": "DookieMaster.StonedValley/Buffs",
+                            "IconSpriteIndex": 2,
+                            "Duration": 540,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 3.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": -1.0,
+                                "Defense": -1.0,
+                                "Attack": -3.0
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "color_purple"
+                    ]
+                },
+                "StonedValley.SativaBrownie":{
+                    "Name": "StonedValley.SativaBrownie",
+                    "DisplayName": "Sativa Brownie",
+                    "Description": "An uplifiting and energetic brownie.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 350,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 51,
+                    "Edibility": 25,
+                    "Buffs": [
+                        {
+                            "Id": "High (Sativa)",
+                            "BuffId": null,
+                            "IconTexture": "DookieMaster.StonedValley/Buffs",
+                            "IconSpriteIndex": 3,
+                            "Duration": 540,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": -2.0,
+                                "FishingLevel": -2.0,
+                                "MiningLevel": 3.0,
+                                "LuckLevel": 3.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 20.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 2.0,
+                                "Defense": -3.0,
+                                "Attack": 3.0
+                            }
+                        }
+                    ],
+                    "ContextTags": [
+                        "color_orange"
+                    ] 
+                },
                 //HempFiber
-                "StonedValley_DryHempFiber": {
-                    "Name": "StonedValley_DryHempFiber",
+                "StonedValley.DryHempFiber": {
+                    "Name": "StonedValley.DryHempFiber",
                     "DisplayName": "Dried Hemp Fiber",
                     "Description": "A tough plant fiber that can be used to make cloth.",
                     "Type": "Basic",
@@ -1084,7 +1233,79 @@
                     "ContextTags": [
                         "color_orange"
                     ] 
-                }
+                },
+                //Ground Cannabis
+                "StonedValley.GroundIndicaBud": {
+                    "Name": "StonedValley.GroundIndicaBud",
+                    "DisplayName": "Ground Indica Bud",
+                    "Description": "A relaxing and creative ground version of the bud.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 40,
+                    "Texture":"DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 54,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "color_purple"
+                    ] 
+                },
+                "StonedValley.GroundHybridBud": {
+                    "Name": "StonedValley.GroundHybridBud",
+                    "DisplayName": "Ground Hybrid Bud",
+                    "Description": "A happy and soothing ground version of the bud.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 40,
+                    "Texture":"DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 55,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "color_green"
+                    ] 
+                },
+                "StonedValley.GroundSativaBud": {
+                    "Name": "StonedValley.GroundSativaBud",
+                    "DisplayName": "Ground Sativa Bud",
+                    "Description": "An uplifiting and energetic ground version of the bud.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 40,
+                    "Texture":"DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 57,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "color_purple"
+                    ] 
+                },
+                "StonedValley.GroundCbdBud": {
+                    "Name": "StonedValley.GroundCbdBud",
+                    "DisplayName": "Ground CBD Bud",
+                    "Description": "A relaxing and relieving ground version of the bud.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 40,
+                    "Texture":"DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 56,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "color_purple"
+                    ] 
+                },
+                //CBD Product:
+                "StonedValley.CbdLotion": {
+                    "Name": "StonedValley.CbdLotion",
+                    "DisplayName": "CBD Lotion",
+                    "Description": "A relaxing and relieving lotion made with coconuts.",
+                    "Type": "Basic",
+                    "Category": -16,
+                    "Price": 300,
+                    "Texture":"DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 40,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "color_purple"
+                    ] 
+                },
             }
         }
     ]

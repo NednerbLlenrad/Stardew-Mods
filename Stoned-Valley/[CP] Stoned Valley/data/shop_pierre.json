@@ -5,80 +5,91 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items"],
             "Entries": {
-                "StonedValley_SativaSeeds": { 
-                    "Id": "StonedValley_SativaSeeds", 
-                    "ItemId": "StonedValley_SativaSeeds", 
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.SativaSeeds": { 
+                    "Id": "StonedValley.SativaSeeds", 
+                    "ItemId": "StonedValley.SativaSeeds", 
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_IndicaSeeds": { //Item Object
-                    "Id": "StonedValley_IndicaSeeds",
-                    "ItemId": "StonedValley_IndicaSeeds",
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.IndicaSeeds": { //Item Object
+                    "Id": "StonedValley.IndicaSeeds",
+                    "ItemId": "StonedValley.IndicaSeeds",
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_HybridSeeds": { //Item Object
-                    "Id": "StonedValley_HybridSeeds", 
-                    "ItemId": "StonedValley_HybridSeeds", //Item ID
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.HybridSeeds": { //Item Object
+                    "Id": "StonedValley.HybridSeeds", 
+                    "ItemId": "StonedValley.HybridSeeds", //Item ID
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_CbdSeeds": { //Item Object
-                    "Id": "StonedValley_CbdSeeds",
-                    "ItemId": "StonedValley_CbdSeeds", //Item ID
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.CbdSeeds": { //Item Object
+                    "Id": "StonedValley.CbdSeeds",
+                    "ItemId": "StonedValley.CbdSeeds", //Item ID
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_HempSeeds": { //Item Object
-                    "Id": "StonedValley_HempSeeds",
-                    "ItemId": "StonedValley_HempSeeds", //Item ID
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.HempSeeds": { //Item Object
+                    "Id": "StonedValley.HempSeeds",
+                    "ItemId": "StonedValley.HempSeeds", //Item ID
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_Wraps": { //Item Object
-                    "Id": "StonedValley_Wraps",
-                    "ItemId": "StonedValley_Wraps", //Item ID
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.Wraps": { //Item Object
+                    "Id": "StonedValley.Wraps",
+                    "ItemId": "StonedValley.Wraps", //Item ID
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_BluntWraps": { //Item Object
-                    "Id": "StonedValley_BluntWraps",
-                    "ItemId": "StonedValley_BluntWraps", //Item ID
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.BluntWraps": { //Item Object
+                    "Id": "StonedValley.BluntWraps",
+                    "ItemId": "StonedValley.BluntWraps", //Item ID
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_RoseBluntWraps": { //Item Object
-                    "Id": "StonedValley_RoseBluntWraps",
-                    "ItemId": "StonedValley_RoseBluntWraps", //Item ID
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.RoseWraps": { //Item Object
+                    "Id": "StonedValley.RoseWraps",
+                    "ItemId": "StonedValley.RoseWraps", //Item ID
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_RollingTray": {
-                    "Id": "StonedValley_RollingTray",
-                    "ItemId": "StonedValley_RollingTray",
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.RollingTray": {
+                    "Id": "StonedValley.RollingTray",
+                    "ItemId": "StonedValley.RollingTray",
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_RollingTray_Blunt": {
-                    "Id": "StonedValley_RollingTray_Blunt",
-                    "ItemId": "StonedValley_RollingTray_Blunt",
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.RollingTray_Blunt": {
+                    "Id": "StonedValley.RollingTray_Blunt",
+                    "ItemId": "StonedValley.RollingTray_Blunt",
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_RollingTray_Blunt_Rose": {
-                    "Id": "StonedValley_RollingTray_Blunt_Rose",
-                    "ItemId": "StonedValley_RollingTray_Blunt_Rose",
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.RollingTray_Blunt_Rose": {
+                    "Id": "StonedValley.RollingTray_Blunt_Rose",
+                    "ItemId": "StonedValley.RollingTray_Blunt_Rose",
+                    "IgnoreShopPriceModifiers": true
                 },
-                "StonedValley_HempRack": {
-                    "Id": "StonedValley_HempRack",
-                    "ItemId": "StonedValley_HempRack",
-                    "IgnoreShopPriceModifiers": true,
+                "StonedValley.HempRack": {
+                    "Id": "StonedValley.HempRack",
+                    "ItemId": "StonedValley.HempRack",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "StonedValley.HashPress": {
+                    "Id": "StonedValley.HashPress",
+                    "ItemId": "StonedValley.HashPress",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "StonedValley.Grinder": {
+                    "Id": "StonedValley.Grinder",
+                    "ItemId": "StonedValley.Grinder",
+                    "IgnoreShopPriceModifiers": true
                 }
             },
             "MoveEntries": [
-                {"Id": "StonedValley_HempSeeds", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_CbdSeeds", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_HybridSeeds", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_IndicaSeeds", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_SativaSeeds", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_Wraps", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_BluntWraps", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_RoseBluntWraps", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_RollingTray", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_RollingTray_Blunt", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_RollingTray_Blunt_Rose", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley_HempRack", "BeforeId": "GrassStarter"}
+                {"Id": "StonedValley.HempSeeds", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.CbdSeeds", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.HybridSeeds", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.IndicaSeeds", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.SativaSeeds", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.Wraps", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.BluntWraps", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.RoseWraps", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.RollingTray", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.RollingTray_Blunt", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.RollingTray_Blunt_Rose", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.HempRack", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.HashPress", "BeforeId": "GrassStarter"}
             ]
         }
     ]
