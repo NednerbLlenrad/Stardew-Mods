@@ -1,0 +1,986 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Add StonedValley Machines to BigCraftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "StonedValley.RollingTray": {
+                    "Name": "StonedValley.RollingTray",
+                    "DisplayName": "Rolling Tray",
+                    "Description": "A beginner's joint rolling set up. Works with basic wraps.",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{TrayColor}}",
+                    "SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+                "StonedValley.RollingTray_Blunt": {
+                    "Name": "StonedValley.RollingTray_Blunt",
+                    "DisplayName": "Blunt Rolling Tray",
+                    "Description": "A intermediate's rolling set up. Works with blunt wraps.",
+                    "Price": 1750,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{TrayColor_Blunt}}",
+                    "SpriteIndex": 16,
+                    "CustomFields": {}
+                },
+                "StonedValley.RollingTray_Blunt_Rose": {
+                    "Name": "StonedValley.RollingTray_Blunt_Rose",
+                    "DisplayName": "Rose Blunt Rolling Tray",
+                    "Description": "An expert's rolling set up. Works with rose blunt wraps.",
+                    "Price": 1750,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{TrayColor_Rose}}",
+                    "SpriteIndex": 24,
+                    "CustomFields": {}
+                },
+                "StonedValley.HashPress": {
+                    "Name": "StonedValley.HashPress",
+                    "DisplayName": "Hash Press",
+                    "Description": "A press for extracting hash from various cannabis buds.",
+                    "Price": 2500,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{PressColor}}",
+                    "SpriteIndex": 8,
+                    "CustomFields": {}
+                },
+                "StonedValley.HempRack": {
+                    "Name": "StonedValley.HempRack",
+                    "DisplayName": "Hemp Rack",
+                    "Description": "A machine for drying out hemp to make cloth.",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{RackColor}}",
+                    "SpriteIndex": 32,
+                    "CustomFields": {}
+                },
+                "StonedValley.Grinder": {
+                    "Name": "StonedValley.Grinder",
+                    "DisplayName": "Grinding Table",
+                    "Description": "A machine for grinding cannabis into easily smokeable particles.",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{GrinderColor}}",
+                    "SpriteIndex": 40,
+                    "CustomFields": {}
+                }
+            }
+        },
+        //New Machines
+        {
+            "LogName": "Add StonedValley Rules to New Machines",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)StonedValley.RollingTray": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "StonedValley.StonedValley.CbdJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.CbdBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.CbdJoint",
+                                    "ItemId": "(0)StonedValley.CbdJoint",
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.HybridJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.HybridBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.HybridJoint",
+                                    "ItemId": "(0)StonedValley.HybridJoint",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.IndicaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.IndicaJoint",
+                                    "ItemId": "(0)StonedValley.IndicaJoint",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        }, 
+                        {
+                            "Id": "StonedValley.StonedValley.SativaJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.SativaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.SativaJoint",
+                                    "ItemId": "(0)StonedValley.SativaJoint",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.CbdJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundCbdBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.CbdJoint",
+                                    "ItemId": "(0)StonedValley.CbdJoint",
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.HybridJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundHybridBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.HybridJoint",
+                                    "ItemId": "(0)StonedValley.HybridJoint",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundIndicaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.IndicaJoint",
+                                    "ItemId": "(0)StonedValley.IndicaJoint",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        }, 
+                        {
+                            "Id": "StonedValley.StonedValley.SativaJoint", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundSativaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.SativaJoint",
+                                    "ItemId": "(0)StonedValley.SativaJoint",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        }
+                    ],
+                    "AdditionalConsumedItems": [
+                        {
+                           "ItemId": "(O)StonedValley.Wraps", 
+                           "RequiredCount": 1,
+                           "InvalidCountMessage": "You don't have any paper wraps.", 
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                },
+                "(BC)StonedValley.RollingTray_Blunt": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        //Blunts
+                        {
+                            "Id": "StonedValley.StonedValley.SativaBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.SativaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.SativaBlunt",
+                                    "ItemId": "(0)StonedValley.SativaBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.IndicaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.IndicaBlunt",
+                                    "ItemId": "(0)StonedValley.IndicaBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.HybridBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.HybridBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.HybridBlunt",
+                                    "ItemId": "(0)StonedValley.HybridBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.CbdBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.CbdBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.CbdBlunt",
+                                    "ItemId": "(0)StonedValley.CbdBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.SativaBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundSativaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.SativaBlunt",
+                                    "ItemId": "(0)StonedValley.SativaBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundIndicaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.IndicaBlunt",
+                                    "ItemId": "(0)StonedValley.IndicaBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.HybridBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundHybridBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.HybridBlunt",
+                                    "ItemId": "(0)StonedValley.HybridBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.CbdBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundCbdBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.CbdBlunt",
+                                    "ItemId": "(0)StonedValley.CbdBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        }
+                    ],
+                    "AdditionalConsumedItems": [
+                        {
+                           "ItemId": "(O)StonedValley.BluntWraps", 
+                           "RequiredCount": 1,
+                           "InvalidCountMessage": "You don't have any blunt wraps.", 
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                },
+                "(BC)StonedValley.RollingTray_Blunt_Rose": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        //RoseBlunts Rose
+                        {
+                            "Id": "StonedValley.StonedValley.SativaRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.SativaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.SativaRoseBlunt",
+                                    "ItemId": "(0)StonedValley.SativaRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40,
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.IndicaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.IndicaRoseBlunt",
+                                    "ItemId": "(0)StonedValley.IndicaRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.HybridRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.HybridBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.HybridRoseBlunt",
+                                    "ItemId": "(0)StonedValley.HybridRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.CbdRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.CbdBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.CbdRoseBlunt",
+                                    "ItemId": "(0)StonedValley.CbdRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.SativaRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundSativaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.SativaRoseBlunt",
+                                    "ItemId": "(0)StonedValley.SativaRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40,
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundIndicaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.IndicaRoseBlunt",
+                                    "ItemId": "(0)StonedValley.IndicaRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.HybridRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundHybridBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.HybridRoseBlunt",
+                                    "ItemId": "(0)StonedValley.HybridRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.CbdRoseBlunt", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.GroundCbdBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.CbdRoseBlunt",
+                                    "ItemId": "(0)StonedValley.CbdRoseBlunt",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        }
+                    ],
+                    "AdditionalConsumedItems": [
+                        {
+                           "ItemId": "(O)StonedValley.RoseWraps", 
+                           "RequiredCount": 1,
+                           "InvalidCountMessage": "You don't have any rose blunt wraps.", 
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                },
+                "(BC)StonedValley.HashPress": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "StonedValley.StonedValley.CbdHash", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.CbdBud",
+                                    "RequiredCount": 4
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.CbdHash",
+                                    "ItemId": "(0)StonedValley.CbdHash",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 120
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.HybridHash", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.HybridBud",
+                                    "RequiredCount": 4
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.HybridHash",
+                                    "ItemId": "(0)StonedValley.HybridHash",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 120
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.SativaHash", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.SativaBud",
+                                    "RequiredCount": 4
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.SativaHash",
+                                    "ItemId": "(0)StonedValley.SativaHash",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 120
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaHash", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.IndicaBud",
+                                    "RequiredCount": 4,
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.IndicaHash",
+                                    "ItemId": "(0)StonedValley.IndicaHash",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 120
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                },
+                "(BC)StonedValley.HempRack": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "StonedValley.StonedValley.DryHempFiber",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.HempBud",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.DryHempFiber",
+                                    "ItemId": "(0)StonedValley.DryHempFiber",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 240
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                },
+                "(BC)StonedValley.Grinder": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "StonedValley.StonedValley.GroundCbdBud", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.CbdBud",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.GroundCbdBud",
+                                    "ItemId": "(0)StonedValley.GroundCbdBud",
+                                    "MinStack": 1,
+                                    "MaxStack": 2,
+                                    "StackModifiers": [
+                                        {
+                                            "Id": "GoodForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                            "Modification": "Add",
+                                            "Amount": 1
+                                        },
+                                        {
+                                            "Id": "GreatForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                            "Modification": "Add",
+                                            "Amount": 2
+                                        },
+                                        {
+                                            "Id": "GreatestForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                            "Modification": "Add",
+                                            "Amount": 3
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.GroundHybridBud", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.HybridBud",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.GroundHybridBud",
+                                    "ItemId": "(0)StonedValley.GroundHybridBud",
+                                    "CopyQuality": true,
+                                    "MinStack": 1,
+                                    "MaxStack": 2,
+                                    "StackModifiers": [
+                                        {
+                                            "Id": "GoodForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                            "Modification": "Add",
+                                            "Amount": 1
+                                        },
+                                        {
+                                            "Id": "GreatForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                            "Modification": "Add",
+                                            "Amount": 2
+                                        },
+                                        {
+                                            "Id": "GreatestForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                            "Modification": "Add",
+                                            "Amount": 3
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.GroundIndicaBud", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.IndicaBud",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.GroundIndicaBud",
+                                    "ItemId": "(0)StonedValley.GroundIndicaBud",
+                                    "CopyQuality": true,
+                                    "MinStack": 1,
+                                    "MaxStack": 2,
+                                    "StackModifiers": [
+                                        {
+                                            "Id": "GoodForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                            "Modification": "Add",
+                                            "Amount": 1
+                                        },
+                                        {
+                                            "Id": "GreatForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                            "Modification": "Add",
+                                            "Amount": 2
+                                        },
+                                        {
+                                            "Id": "GreatestForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                            "Modification": "Add",
+                                            "Amount": 3
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        }, 
+                        {
+                            "Id": "StonedValley.StonedValley.GroundSativaBud", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.SativaBud",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.GroundSativaBud",
+                                    "ItemId": "(0)StonedValley.GroundSativaBud",
+                                    "CopyQuality": true,
+                                    "MinStack": 1,
+                                    "MaxStack": 2,
+                                    "StackModifiers": [
+                                        {
+                                            "Id": "GoodForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 5 6",
+                                            "Modification": "Add",
+                                            "Amount": 1
+                                        },
+                                        {
+                                            "Id": "GreatForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 7 9",
+                                            "Modification": "Add",
+                                            "Amount": 2
+                                        },
+                                        {
+                                            "Id": "GreatestForager",
+                                            "Condition": "PLAYER_FORAGING_LEVEL Any 10",
+                                            "Modification": "Add",
+                                            "Amount": 3
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 40
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                }
+            }
+        },
+        //Oil Maker
+        {
+            "LogName": "StonedValley Oil Maker Machine Edits",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)19", "OutputRules"],
+            "Entries": {
+                "StonedValley.StonedValley.CbdOil": {
+                    "Id": "StonedValley.StonedValley.CbdOil", 
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)StonedValley.CbdBud",
+                            "RequiredCount": 2
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "StonedValley.StonedValley.CbdOil",
+                            "ItemId": "(0)StonedValley.CbdOil",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 120
+                },
+                "StonedValley.StonedValley.HybridOil": {
+                    "Id": "StonedValley.StonedValley.HybridOil", 
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)StonedValley.HybridBud",
+                            "RequiredCount": 2
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "StonedValley.StonedValley.HybridOil",
+                            "ItemId": "(0)StonedValley.HybridOil",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 120
+                },
+                "StonedValley.StonedValley.SativaOil": {
+                    "Id": "StonedValley.StonedValley.SativaOil", 
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)StonedValley.SativaBud",
+                            "RequiredCount": 2
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "StonedValley.StonedValley.SativaOil",
+                            "ItemId": "(0)StonedValley.SativaOil",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 120
+                },
+                "StonedValley.StonedValley.IndicaOil": {
+                    "Id": "StonedValley.StonedValley.IndicaOil", 
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)StonedValley.IndicaBud",
+                            "RequiredCount": 2
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "StonedValley.StonedValley.IndicaOil",
+                            "ItemId": "(0)StonedValley.IndicaOil",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 120
+                }
+            }
+        },
+        //Loom
+        {
+            "LogName": "StonedValley Loom Machine Edits",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)17", "OutputRules"],
+            "Entries": {
+                "Cloth": {
+                    "Id": "428",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "ItemId": "(0)StonedValley.DryHempFiber",
+                            "RequiredCount": 10
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "428",
+                            "ItemId": "(0)428",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            }
+        }
+    ]
+}
