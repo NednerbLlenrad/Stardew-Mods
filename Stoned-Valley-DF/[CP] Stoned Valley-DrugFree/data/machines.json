@@ -1,0 +1,118 @@
+{
+    "Changes": [
+
+        {
+            "LogName": "Add StonedValley Machines to BigCraftables",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "StonedValley.HempRack": {
+                    "Name": "StonedValley.HempRack",
+                    "DisplayName": "Hemp Rack",
+                    "Description": "A machine for drying out hemp to make cloth.",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{RackColor}}",
+                    "SpriteIndex": 32,
+                    "CustomFields": {}
+                }
+            }
+        },
+        //New Machines
+        {
+            "LogName": "Add StonedValley Rules to New Machines",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)StonedValley.HempRack": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "StonedValley.StonedValley.DryHempFiber",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.HempBud",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.DryHempFiber",
+                                    "ItemId": "(0)StonedValley.DryHempFiber",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 240
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                }
+            }
+        },
+        //Oil Maker
+        {
+            "LogName": "StonedValley Oil Maker Machine Edits",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)19", "OutputRules"],
+            "Entries": {
+                "StonedValley.StonedValley.CbdOil": {
+                    "Id": "StonedValley.StonedValley.CbdOil", 
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)StonedValley.CbdBud",
+                            "RequiredCount": 2
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "StonedValley.StonedValley.CbdOil",
+                            "ItemId": "(0)StonedValley.CbdOil",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 120
+                }
+            }
+        },
+        //Loom
+        {
+            "LogName": "StonedValley Loom Machine Edits",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)17", "OutputRules"],
+            "Entries": {
+                "Cloth": {
+                    "Id": "428",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "ItemId": "(0)StonedValley.DryHempFiber",
+                            "RequiredCount": 10
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "428",
+                            "ItemId": "(0)428",
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 360
+                }
+            }
+        }
+    ]
+}

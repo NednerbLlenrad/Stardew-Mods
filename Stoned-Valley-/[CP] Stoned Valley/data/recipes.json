@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        //Cooking Recipes
+        {
+            "LogName": "StonedValley Cooking Recipes",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "StonedValley.CbdGummy": "StonedValley.CbdOil 1 245 1/60 60/StonedValley.CbdGummy 1/default",
+                "StonedValley.IndicaGummy": "StonedValley.IndicaOil 1 245 1/60 60/StonedValley.IndicaGummy 1/default",
+                "StonedValley.SativaGummy": "StonedValley.SativaOil 1 245 1/60 60/StonedValley.SativaGummy 1/default",
+                "StonedValley.HybridGummy": "StonedValley.HybridOil 1 245 1/60 60/StonedValley.HybridGummy 1/default",
+                "StonedValley.CBDBrownie": "StonedValley.CBDOil 1 246 1 245 1/60 60/StonedValley.CBDBrownie 1/default",
+                "StonedValley.IndicaBrownie": "StonedValley.IndicaOil 1 246 1 245 1/60 60/StonedValley.IndicaBrownie 1/default",
+                "StonedValley.SativaBrownie": "StonedValley.SativaOil 1 246 1 245 1/60 60/StonedValley.SativaBrownie 1/default",
+                "StonedValley.HybridBrownie": "StonedValley.HybridOil 1 246 1 245 1/60 60/StonedValley.HybridBrownie 1/default"
+            }
+        },
+        //Crafting Recipes
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": { 
+                "StonedValley.BluntWrap": "StonedValley.DryHempFiber 2/Home/StonedValley.BluntWraps 1/false/Farming 2",
+                "StonedValley.RoseWrap": "595 1/Home/StonedValley.RoseWraps/false/Farming 3",
+                "StonedValley.Wrap": "172 1/Home/StonedValley.Wraps/false/Farming 1",
+                "StonedValley.CBDLotion": "StonedValley.CbdOil 1 88 1/Home/StonedValley.CBDLotion 1/false/Farming 4"
+            }
+        }
+    ]
+}
