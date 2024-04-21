@@ -2,38 +2,8 @@
     "Format": "2.0.0",
 
     "ConfigSchema":{
-        "TrayColor": {
-            "Description": "Option to choose your rolling tray color. Defaults to base grey color.",
-            "AllowValues": "Base",
-            "Default": "Base",
-            "AllowBlank": false
-        },
-        "TrayColor_Blunt": {
-            "Description": "Option to choose your rolling tray color. Defaults to base grey color.",
-            "AllowValues": "Base",
-            "Default": "Base",
-            "AllowBlank": false
-        },
-        "TrayColor_Rose": {
-            "Description": "Option to choose your rolling tray color. Defaults to base grey color.",
-            "AllowValues": "Base",
-            "Default": "Base",
-            "AllowBlank": false
-        },
-        "PressColor": {
-            "Description": "Option to choose your hash press color. Defaults to base metal color.",
-            "AllowValues": "Base",
-            "Default": "Base",
-            "AllowBlank": false
-        },
         "RackColor": {
             "Description": "Option to choose your hemp Rack color. Defaults to base brown color.",
-            "AllowValues": "Base",
-            "Default": "Base",
-            "AllowBlank": false
-        },
-        "GrinderColor": {
-            "Description": "Option to choose your grinder color. Defaults to base brown color.",
             "AllowValues": "Base",
             "Default": "Base",
             "AllowBlank": false
