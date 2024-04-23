@@ -7,7 +7,7 @@
             "Target": "Data/CookingRecipes",
             "Entries": {
                 "StonedValley.CbdGummy": "StonedValley.CbdOil 1 245 1/60 60/StonedValley.CbdGummy 1/default",
-                "StonedValley.CBDBrownie": "StonedValley.CBDOil 1 246 1 245 1/60 60/StonedValley.CBDBrownie 1/default",
+                "StonedValley.CbdBrownie": "StonedValley.CbdOil 1 246 1 245 1/60 60/StonedValley.CbdBrownie 1/default",
             }
         },
         //Crafting Recipes
@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": { 
-                "StonedValley.CBDLotion": "StonedValley.CbdOil 1 88 1/Home/StonedValley.CBDLotion 1/false/Farming 4"
+                "StonedValley.CbdLotion": "StonedValley.CbdOil 1 88 1/Home/StonedValley.CbdLotion 1/false/Farming 4"
             }
         }
     ]
