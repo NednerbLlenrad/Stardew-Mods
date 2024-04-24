@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "StonedValley.IndicaHigh": {
+                    "DisplayName": "High (Indica)",
+                    "Description": "You feel very relaxed...",
+                    "IconTexture": "DookieMaster.StonedValley/Buffs",
+                    "IconSpriteIndex": 2,
+                    "Duration": 84000,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                        "FarmingLevel": 1.0,
+                        "FishingLevel": 2.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 1.0,
+                        "ForagingLevel": 1.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 0.0,
+                        "Defense": -1.0,
+                        "Attack": -1.0
+                    } 
+                },
+                "StonedValley.SativaHigh": {
+                    "DisplayName": "High (Sativa)",
+                    "Description": "You feel very energized...",
+                    "IconTexture": "DookieMaster.StonedValley/Buffs",
+                    "IconSpriteIndex": 3,
+                    "Duration": 84000,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                        "FarmingLevel": -1.0,
+                        "FishingLevel": -1.0,
+                        "MiningLevel": 1.0,
+                        "LuckLevel": 1.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 10.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 1.0,
+                        "Defense": 1.0,
+                        "Attack": 1.0
+                    } 
+                },
+                "StonedValley.HybridHigh": {
+                    "DisplayName": "High (Hybrid)",
+                    "Description": "You feel very balanced...",
+                    "IconTexture": "DookieMaster.StonedValley/Buffs",
+                    "IconSpriteIndex": 1,
+                    "Duration": 84000,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                        "FarmingLevel": 1.0,
+                        "FishingLevel": 1.0,
+                        "MiningLevel": 0.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 1.0,
+                        "MaxStamina": 0.0,
+                        "MagneticRadius": 1.0,
+                        "Speed": 0.0,
+                        "Defense": 0.0,
+                        "Attack": 0.0
+                    } 
+                },
+                "StonedValley.Stinky": {
+                    "DisplayName": "Stinky",
+                    "Description":"You smell reeeeal nice...",
+                    "IconTexture": "DookieMaster.StonedValley/Buffs",
+                    "IconSpriteIndex": 5,
+                    "Duration": 84000,
+                    "IsDebuff": false,
+                    "GlowColor": "Green",
+                    "CustomAttributes": null,
+                },
+                "StonedValley.Relaxed": {
+                    "DisplayName": "Relaxed (CBD)",
+                    "Description":"Your muscles and bones feel soothed and relaxed...",
+                    "IconTexture": "DookieMaster.StonedValley/Buffs",
+                    "IconSpriteIndex": 0,
+                    "Duration": 84000,
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "CustomAttributes": {
+                        "FarmingLevel": 0.0,
+                        "FishingLevel": 0.0,
+                        "MiningLevel": 1.0,
+                        "LuckLevel": 0.0,
+                        "ForagingLevel": 0.0,
+                        "MaxStamina": 40.0,
+                        "MagneticRadius": 0.0,
+                        "Speed": 1.0,
+                        "Defense": 0.0,
+                        "Attack": 1.0
+                    } 
+                }
+            }
+        }
+    ]
+}

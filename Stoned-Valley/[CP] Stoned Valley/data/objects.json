@@ -10,7 +10,7 @@
                     "DisplayName": "Sativa Bud",
                     "Description": "An uplifiting and energetic strain of cannabis.",
                     "Type": "Basic",
-                    "Category": -75,
+                    "Category": -80,
                     "Price": 40,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 6,
@@ -24,7 +24,7 @@
                     "DisplayName": "Indica Bud",
                     "Description": "A relaxing and creative strain of cannabis.",
                     "Type": "Basic",
-                    "Category": -75,
+                    "Category": -80,
                     "Price": 40,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 0,
@@ -38,7 +38,7 @@
                         "DisplayName": "Hybrid Bud",
                         "Description": "A happy and soothing strain of cannabis.",
                         "Type": "Basic",
-                        "Category": -75,
+                        "Category": -80,
                         "Price": 40,
                         "Texture": "DookieMaster.StonedValley/Objects",
                         "SpriteIndex": 2,
@@ -46,34 +46,6 @@
                         "ContextTags": [
                             "color_green"
                         ]
-                },
-                "StonedValley.CbdBud": {
-                    "Name": "StonedValley.CbdBud",
-                    "DisplayName": "Cbd Bud",
-                    "Description": "A relaxing plant that cures aches and cannabis.",
-                    "Type": "Basic",
-                    "Category": -75,
-                    "Price": 20,
-                    "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 4,
-                    "Edibility": -50,
-                    "ContextTags": [
-                        "color_jade"
-                    ]
-                },
-                "StonedValley.HempBud": {
-                    "Name": "StonedValley.HempBud",
-                    "DisplayName": "Hemp Bud",
-                    "Description": "A tough and fibourous plant with many uses.",
-                    "Type": "Basic",
-                    "Category": -75,
-                    "Price": 20,
-                    "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 8,
-                    "Edibility": -50,
-                    "ContextTags": [
-                        "color_dark_green"
-                    ]
                 }
             }
         },
@@ -111,26 +83,6 @@
                 "Price": 100, 
                 "Texture": "DookieMaster.StonedValley/Objects",
                 "SpriteIndex": 3
-            },
-                "StonedValley.CbdSeeds": { //Item Object
-                "Name": "StonedValley.CbdSeeds", //Item ID
-                "DisplayName": "CBD Seeds", //Name in game
-                "Description": "Plant in any season except winter. Takes 10 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
-                "Type": "Seed", 
-                "Category": -74, 
-                "Price": 80, 
-                "Texture": "DookieMaster.StonedValley/Objects",
-                "SpriteIndex": 5
-            },
-                "StonedValley.HempSeeds": { //Item Object
-                "Name": "StonedValley.HempSeeds", //Item ID
-                "DisplayName": "Hemp Seeds", //Name in game
-                "Description": "Plant in any season except winter. Takes 12 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
-                "Type": "Seed", 
-                "Category": -74, 
-                "Price": 50, 
-                "Texture": "DookieMaster.StonedValley/Objects",
-                "SpriteIndex": 9
             }
             }
         },
@@ -140,12 +92,14 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
+
+                //JOoints
                 "StonedValley.CbdJoint": {
                     "Name": "StonedValley.CbdJoint",
                     "DisplayName": "CBD Joint",
                     "Description": "A relaxing joint that soothes aches and pains.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 60,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 14,
@@ -153,24 +107,13 @@
                     "Buffs": [
                         {
                             "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",//Change
-                            "IconSpriteIndex": 0,
-                            "Duration": 180,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 30.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 200
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -182,7 +125,7 @@
                     "DisplayName": "Hybrid Joint",
                     "Description": "A happy and soothing cannabis joint.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 100,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 13,
@@ -190,24 +133,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Hybrid)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 1,
-                            "Duration": 180,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 1.0,
-                                "FishingLevel": 1.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 1.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": -1.0,
-                                "Attack": -1.0
-                            }
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 200
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -219,7 +151,7 @@
                     "DisplayName": "Indica Joint",
                     "Description": "A relaxing and creative joint.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 100,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 12,
@@ -227,24 +159,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Indica)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 2,
-                            "Duration": 180,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 2.0,
-                                "FishingLevel": 2.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": -1.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 200
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -256,7 +177,7 @@
                     "DisplayName": "Sativa Joint",
                     "Description": "An uplifiting and energetic joint.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 100,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 15,
@@ -264,49 +185,28 @@
                     "Buffs": [
                         {
                             "Id": "High (Sativa)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 3,
-                            "Duration": 180,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 1.0,
-                                "LuckLevel": 1.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 10.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 1.0,
-                                "Defense": 1.0,
-                                "Attack": 1.0
-                            }
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 200
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
                         "color_orange"
                     ]
                 },
-                "StonedValley.Wraps": {
-                    "Name": "StonedValley.Wraps",
-                    "DisplayName": "Wraps",
-                    "Description": "Used for wrapping various 'herbs' into smokeable versions.",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 10,
-                    "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 10,
-                    "Edibility": -300,
-                    "ContextTags": null,
-                    "CustomFields": null
-                },
+
+
+                //Blunts
                 "StonedValley.CbdBlunt": {
                     "Name": "StonedValley.CbdBlunt",
                     "DisplayName": "CBD Blunt",
                     "Description": "A relaxing blunt that soothes aches and pains.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 80,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 26,
@@ -314,24 +214,13 @@
                     "Buffs": [
                         {
                             "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 35.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 1.0,
-                                "Defense": 1.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 300
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -343,7 +232,7 @@
                     "DisplayName": "Hybrid Blunt",
                     "Description": "A happy and soothing cannabis blunt.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 150,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 25,
@@ -351,24 +240,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Hybrid)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 1,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 2.0,
-                                "FishingLevel": 2.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 2.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": -2.0,
-                                "Attack": -2.0
-                            }
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 300
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -380,7 +258,7 @@
                     "DisplayName": "Indica Blunt",
                     "Description": "A relaxing and creative blunt.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 150,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 24,
@@ -388,24 +266,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Indica)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 2,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 2.0,
-                                "FishingLevel": 2.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 2.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": -1.0,
-                                "Defense": 0.0,
-                                "Attack": -2.0
-                            }
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 300
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -417,7 +284,7 @@
                     "DisplayName": "Sativa Blunt",
                     "Description": "An uplifiting and energetic blunt.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 150,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 27,
@@ -425,49 +292,28 @@
                     "Buffs": [
                         {
                             "Id": "High (Sativa)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 3,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": -1.0,
-                                "FishingLevel": -1.0,
-                                "MiningLevel": 2.0,
-                                "LuckLevel": 2.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 10.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": -1.0,
-                                "Attack": 2.0
-                            }
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 300
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
                         "color_orange"
                     ]
                 },
-                "StonedValley.BluntWraps": {
-                    "Name": "StonedValley.BluntWraps",
-                    "DisplayName": "Blunt Wraps",
-                    "Description": "A hemp wrap used for rolling various blunts.",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 50,
-                    "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 11,
-                    "Edibility": -300,
-                    "ContextTags": null,
-                    "CustomFields": null,
-                },
+
+
+                //Rose Blunts
                 "StonedValley.CbdRoseBlunt": {
                     "Name": "StonedValley.CbdRoseBlunt",
                     "DisplayName": "CBD Rose Blunt",
                     "Description": "A relaxing rose blunt that soothes aches and pains.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 120,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 18,
@@ -475,24 +321,13 @@
                     "Buffs": [
                         {
                             "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 420
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -504,7 +339,7 @@
                     "DisplayName": "Hybrid Rose Blunt",
                     "Description": "A happy and soothing cannabis rose blunt.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 19,
@@ -512,24 +347,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Hybrid)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 1,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 3.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": -3.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 420
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -541,7 +365,7 @@
                     "DisplayName": "Indica Rose Blunt",
                     "Description": "A relaxing and creative rose blunt.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 18,
@@ -549,24 +373,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Indica)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 2,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": -1.0,
-                                "Defense": -1.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 420
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -578,7 +391,7 @@
                     "DisplayName": "Sativa Rose Blunt",
                     "Description": "An uplifiting and energetic rose blunt.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 21,
@@ -586,36 +399,54 @@
                     "Buffs": [
                         {
                             "Id": "High (Sativa)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 3,
-                            "Duration": 240,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": -2.0,
-                                "FishingLevel": -2.0,
-                                "MiningLevel": 3.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 20.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": -3.0,
-                                "Attack": 3.0
-                            }
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 420
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
                         "color_orange"
                     ]
                 },
+
+
+                //Wraps
+                "StonedValley.Wraps": {
+                    "Name": "StonedValley.Wraps",
+                    "DisplayName": "Wraps",
+                    "Description": "Used for wrapping various 'herbs' into smokeable versions.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 10,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 10,
+                    "Edibility": -300,
+                    "ContextTags": null,
+                    "CustomFields": null
+                },
+                "StonedValley.BluntWraps": {
+                    "Name": "StonedValley.BluntWraps",
+                    "DisplayName": "Blunt Wraps",
+                    "Description": "A hemp wrap used for rolling various blunts.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 50,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 11,
+                    "Edibility": -300,
+                    "ContextTags": null,
+                    "CustomFields": null,
+                },
                 "StonedValley.RoseWraps": {
                     "Name": "StonedValley.RoseWraps",
                     "DisplayName": "Rose Wraps",
                     "Description": "A rose petal wrap used for rolling various blunts.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 100,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 16,
@@ -623,13 +454,15 @@
                     "ContextTags": null,
                     "CustomFields": null
                 },
+
+
                 //Wax
                 "StonedValley.CbdHash": {
                     "Name": "StonedValley.CbdHash",
                     "DisplayName": "CBD Hash",
                     "Description": "A relaxing hash oil that soothes aches and pains.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 120,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 32,
@@ -637,24 +470,13 @@
                     "Buffs": [
                         {
                             "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 240
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -666,7 +488,7 @@
                     "DisplayName": "Hybrid Hash",
                     "Description": "A happy and soothing hash oil.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 31,
@@ -674,24 +496,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Hybrid)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 1,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 3.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": -3.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 240
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -703,7 +514,7 @@
                     "DisplayName": "Indica Hash",
                     "Description": "A relaxing and creative hash oil.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 30,
@@ -711,24 +522,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Indica)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 2,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": -1.0,
-                                "Defense": -1.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 240
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -737,10 +537,10 @@
                 },
                 "StonedValley.SativaHash":{
                     "Name": "StonedValley.SativaHash",
-                    "DisplayName": "Sativa Rose Hash",
+                    "DisplayName": "Sativa Hash",
                     "Description": "An uplifiting and energetic hash oil.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 33,
@@ -748,24 +548,13 @@
                     "Buffs": [
                         {
                             "Id": "High (Sativa)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 3,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": -2.0,
-                                "FishingLevel": -2.0,
-                                "MiningLevel": 3.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 20.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": -3.0,
-                                "Attack": 3.0
-                            }
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 240
+                        },
+                        {
+                            "Id": "Stinky",
+                            "BuffId": "StonedValley.Stinky",
+                            "Duration": 60
                         }
                     ],
                     "ContextTags": [
@@ -773,49 +562,12 @@
                     ] 
                 },
                 //Oil
-                "StonedValley.CbdOil": {
-                    "Name": "StonedValley.CbdOil",
-                    "DisplayName": "CBD Oil",
-                    "Description": "A relaxing oil that soothes aches and pains.",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 120,
-                    "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 38,
-                    "Edibility": 25,
-                    "Buffs": [
-                        {
-                            "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
-                        }
-                    ],
-                    "ContextTags": [
-                        "color_light_green"
-                    ]
-                },
                 "StonedValley.HybridOil": {
                     "Name": "StonedValley.HybridOil",
                     "DisplayName": "Hybrid Oil",
                     "Description": "A happy and soothing oil.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 37,
@@ -823,24 +575,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Hybrid)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 1,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 3.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": -3.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 300
                         }
                     ],
                     "ContextTags": [
@@ -852,7 +588,7 @@
                     "DisplayName": "Indica Oil",
                     "Description": "A relaxing and creative oil.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 36,
@@ -860,24 +596,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Indica)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 2,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": -1.0,
-                                "Defense": -1.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 300
                         }
                     ],
                     "ContextTags": [
@@ -889,7 +609,7 @@
                     "DisplayName": "Sativa Oil",
                     "Description": "An uplifiting and energetic oil.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 250,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 39,
@@ -897,24 +617,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Sativa)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 3,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": -2.0,
-                                "FishingLevel": -2.0,
-                                "MiningLevel": 3.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 20.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": -3.0,
-                                "Attack": 3.0
-                            }
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 300
                         }
                     ],
                     "ContextTags": [
@@ -922,49 +626,12 @@
                     ] 
                 },
                 //Gummies
-                "StonedValley.CbdGummy": {
-                    "Name": "StonedValley.CbdGummy",
-                    "DisplayName": "CBD Gummy",
-                    "Description": "A relaxing gummy that soothes aches and pains.",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 200,
-                    "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 44,
-                    "Edibility": 25,
-                    "Buffs": [
-                        {
-                            "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 480,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
-                        }
-                    ],
-                    "ContextTags": [
-                        "color_light_green"
-                    ]
-                },
                 "StonedValley.HybridGummy": {
                     "Name": "StonedValley.HybridGummy",
                     "DisplayName": "Hybrid Gummy",
                     "Description": "A happy and soothing gummy.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 300,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 43,
@@ -972,24 +639,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Hybrid)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 1,
-                            "Duration": 480,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 3.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": -3.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 360
                         }
                     ],
                     "ContextTags": [
@@ -1001,7 +652,7 @@
                     "DisplayName": "Indica Gummy",
                     "Description": "A relaxing and creative gummy.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 300,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 42,
@@ -1009,24 +660,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Indica)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 2,
-                            "Duration": 480,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": -1.0,
-                                "Defense": -1.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 360
                         }
                     ],
                     "ContextTags": [
@@ -1035,10 +670,10 @@
                 },
                 "StonedValley.SativaGummy":{
                     "Name": "StonedValley.SativaGummy",
-                    "DisplayName": "Sativa Rose Gummy",
+                    "DisplayName": "Sativa Gummy",
                     "Description": "An uplifiting and energetic gummy.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 300,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 45,
@@ -1046,24 +681,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Sativa)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 3,
-                            "Duration": 480,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": -2.0,
-                                "FishingLevel": -2.0,
-                                "MiningLevel": 3.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 20.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": -3.0,
-                                "Attack": 3.0
-                            }
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 360
                         }
                     ],
                     "ContextTags": [
@@ -1071,49 +690,12 @@
                     ] 
                 },
                 //Brownies
-                "StonedValley.CbdBrownie": {
-                    "Name": "StonedValley.CbdBrownie",
-                    "DisplayName": "CBD Brownie",
-                    "Description": "A relaxing brownie that soothes aches and pains.",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 300,
-                    "Texture": "DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 50,
-                    "Edibility": 40,
-                    "Buffs": [
-                        {
-                            "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 540,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
-                        }
-                    ],
-                    "ContextTags": [
-                        "color_light_green"
-                    ]
-                },
                 "StonedValley.HybridBrownie": {
                     "Name": "StonedValley.HybridBrownie",
                     "DisplayName": "Hybrid Brownie",
                     "Description": "A happy and soothing brownie.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 350,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 49,
@@ -1121,24 +703,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Hybrid)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 1,
-                            "Duration": 540,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 3.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": -3.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 480
                         }
                     ],
                     "ContextTags": [
@@ -1150,7 +716,7 @@
                     "DisplayName": "Indica Brownie",
                     "Description": "A relaxing and creative brownie.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 350,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 48,
@@ -1158,24 +724,8 @@
                     "Buffs": [
                         {
                             "Id": "High (Indica)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 2,
-                            "Duration": 540,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": -1.0,
-                                "Defense": -1.0,
-                                "Attack": -3.0
-                            }
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 480
                         }
                     ],
                     "ContextTags": [
@@ -1187,7 +737,7 @@
                     "DisplayName": "Sativa Brownie",
                     "Description": "An uplifiting and energetic brownie.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 350,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 51,
@@ -1195,44 +745,232 @@
                     "Buffs": [
                         {
                             "Id": "High (Sativa)",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 3,
-                            "Duration": 540,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": -2.0,
-                                "FishingLevel": -2.0,
-                                "MiningLevel": 3.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 20.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": -3.0,
-                                "Attack": 3.0
-                            }
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 480
                         }
                     ],
                     "ContextTags": [
                         "color_orange"
                     ] 
                 },
-                //HempFiber
-                "StonedValley.DryHempFiber": {
-                    "Name": "StonedValley.DryHempFiber",
-                    "DisplayName": "Dried Hemp Fiber",
-                    "Description": "A tough plant fiber that can be used to make cloth.",
+                //Infused Joja Cola
+                "StonedValley.InfusedJojaColaS": {
+                    "Name": "StonedValley.InfusedJojaColaS",
+                    "DisplayName": "Infused Joja Cola",
+                    "Description": "A sativa infused drink.",
                     "Type": "Basic",
-                    "Category": -16,
-                    "Price": 40,
-                    "Texture":"DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 17,
-                    "Edibility": -300,
-                    "ContextTags": [
-                        "color_orange"
+                    "Category": -26,
+                    "Price": 130,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 34,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id":"High (Sativa)",
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 180                            
+                        },
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 30,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                              "FarmingLevel": 0.0,
+                              "FishingLevel": 0.0,
+                              "MiningLevel": 0.0,
+                              "LuckLevel": 0.0,
+                              "ForagingLevel": 0.0,
+                              "MaxStamina": 0.0,
+                              "MagneticRadius": 0.0,
+                              "Speed": 2.0,
+                              "Defense": 0.0,
+                              "Attack": 0.0
+                            },
+                            "CustomFields": null
+                          }
                     ] 
+                },
+                "StonedValley.InfusedJojaColaI": {
+                    "Name": "StonedValley.InfusedJojaColaI",
+                    "DisplayName": "Infused Joja Cola",
+                    "Description": "An indica infused drink.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 130,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 34,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id":"High (Indica)",
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 180                            
+                        },
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 30,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                              "FarmingLevel": 0.0,
+                              "FishingLevel": 0.0,
+                              "MiningLevel": 0.0,
+                              "LuckLevel": 0.0,
+                              "ForagingLevel": 0.0,
+                              "MaxStamina": 0.0,
+                              "MagneticRadius": 0.0,
+                              "Speed": 2.0,
+                              "Defense": 0.0,
+                              "Attack": 0.0
+                            },
+                            "CustomFields": null
+                          }
+                    ] 
+                },
+                "StonedValley.InfusedJojaColaH": {
+                    "Name": "StonedValley.InfusedJojaColaH",
+                    "DisplayName": "Infused Joja Cola",
+                    "Description": "A hybrid infused drink.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 130,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 34,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id":"High (Hybrid)",
+                            "BuffId": "StonedValley.HybridHigh",
+                            "Duration": 180                            
+                        },
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 30,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                              "FarmingLevel": 0.0,
+                              "FishingLevel": 0.0,
+                              "MiningLevel": 0.0,
+                              "LuckLevel": 0.0,
+                              "ForagingLevel": 0.0,
+                              "MaxStamina": 0.0,
+                              "MagneticRadius": 0.0,
+                              "Speed": 2.0,
+                              "Defense": 0.0,
+                              "Attack": 0.0
+                            },
+                            "CustomFields": null
+                          }
+                    ] 
+                },
+                "StonedValley.InfusedJojaColaC": {
+                    "Name": "StonedValley.InfusedJojaColaC",
+                    "DisplayName": "Infused Joja Cola",
+                    "Description": "A cbd infused drink.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 130,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 34,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id":"Relaxed",
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 180                            
+                        },
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 30,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                              "FarmingLevel": 0.0,
+                              "FishingLevel": 0.0,
+                              "MiningLevel": 0.0,
+                              "LuckLevel": 0.0,
+                              "ForagingLevel": 0.0,
+                              "MaxStamina": 0.0,
+                              "MagneticRadius": 0.0,
+                              "Speed": 2.0,
+                              "Defense": 0.0,
+                              "Attack": 0.0
+                            },
+                            "CustomFields": null
+                          }
+                    ] 
+                },
+                //Honey
+                "StonedValley.InfusedHoneyH": {
+                    "Name": "StonedValley.InfusedHoneyH",
+                    "DisplayName": "Infused Honey",
+                    "Description": "Honey infused with cannabis.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 425,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 28,
+                    "Edibility": -300,
+                    "ContexTags": [
+                        "honey_item"
+                    ]
+                },
+                //Dab Pens and Disposables
+                "StonedValley.IndicaDabPen": {
+                    "Name": "StonedValley.IndicaDabPen",
+                    "DisplayName": "Indica Dab Pen",
+                    "Description": "A battery and cartridge for vaping.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 35,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id":"High (Indica)",
+                            "BuffId": "StonedValley.IndicaHigh",
+                            "Duration": 120                            
+                        }
+                    ]
+                },
+                "StonedValley.SativaDisposable": {
+                    "Name": "StonedValley.SativaDisposable",
+                    "DisplayName": "Sativa Disposable",
+                    "Description": "A battery and cartridge for vaping.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 41,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id":"High (Sativa)",
+                            "BuffId": "StonedValley.SativaHigh",
+                            "Duration": 120                            
+                        }
+                    ]
                 },
                 //Ground Cannabis
                 "StonedValley.GroundIndicaBud": {
@@ -1240,7 +978,7 @@
                     "DisplayName": "Ground Indica Bud",
                     "Description": "A relaxing and creative ground version of the bud.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 40,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 54,
@@ -1254,7 +992,7 @@
                     "DisplayName": "Ground Hybrid Bud",
                     "Description": "A happy and soothing ground version of the bud.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 40,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 55,
@@ -1268,7 +1006,7 @@
                     "DisplayName": "Ground Sativa Bud",
                     "Description": "An uplifiting and energetic ground version of the bud.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 40,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 57,
@@ -1282,7 +1020,7 @@
                     "DisplayName": "Ground CBD Bud",
                     "Description": "A relaxing and relieving ground version of the bud.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 40,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 56,
@@ -1290,22 +1028,7 @@
                     "ContextTags": [
                         "color_purple"
                     ] 
-                },
-                //CBD Product:
-                "StonedValley.CbdLotion": {
-                    "Name": "StonedValley.CbdLotion",
-                    "DisplayName": "CBD Lotion",
-                    "Description": "A relaxing and relieving lotion made with coconuts.",
-                    "Type": "Basic",
-                    "Category": -16,
-                    "Price": 300,
-                    "Texture":"DookieMaster.StonedValley/Objects",
-                    "SpriteIndex": 40,
-                    "Edibility": -300,
-                    "ContextTags": [
-                        "color_purple"
-                    ] 
-                },
+                }
             }
         }
     ]

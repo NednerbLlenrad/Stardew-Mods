@@ -13,7 +13,8 @@
                 "StonedValley.CbdBrownie": "StonedValley.CbdOil 1 246 1 245 1/60 60/StonedValley.CbdBrownie 1/default",
                 "StonedValley.IndicaBrownie": "StonedValley.IndicaOil 1 246 1 245 1/60 60/StonedValley.IndicaBrownie 1/default",
                 "StonedValley.SativaBrownie": "StonedValley.SativaOil 1 246 1 245 1/60 60/StonedValley.SativaBrownie 1/default",
-                "StonedValley.HybridBrownie": "StonedValley.HybridOil 1 246 1 245 1/60 60/StonedValley.HybridBrownie 1/default"
+                "StonedValley.HybridBrownie": "StonedValley.HybridOil 1 246 1 245 1/60 60/StonedValley.HybridBrownie 1/default",
+                "StonedValley.RoastedHempSeeds": "StonedValley.HempSeeds 2/60 60/StonedValley.RoastedHempSeeds 1/default"
             }
         },
         //Crafting Recipes
@@ -22,9 +23,13 @@
             "Target": "Data/CraftingRecipes",
             "Entries": { 
                 "StonedValley.BluntWrap": "StonedValley.DryHempFiber 2/Home/StonedValley.BluntWraps 1/false/Farming 2",
-                "StonedValley.RoseWrap": "595 1/Home/StonedValley.RoseWraps/false/Farming 3",
+                "StonedValley.RoseWrap": "StonedValley.DryRose/Home/StonedValley.RoseWraps/false/Farming 3",
                 "StonedValley.Wrap": "172 1/Home/StonedValley.Wraps/false/Farming 1",
-                "StonedValley.CbdLotion": "StonedValley.CbdOil 1 88 1/Home/StonedValley.CbdLotion 1/false/Farming 4"
+                "StonedValley.CbdLotion": "StonedValley.CbdOil 1 88 1/Home/StonedValley.CbdLotion 1/false/Farming 4",
+                "StonedValley.InfusedHoneyH": "StonedValley.HybridHash 1 340 1/Home/StonedValley.InfusedHoneyH 1/false/Farming 3",
+                "StonedValley.IndicaDabPen": "StonedValley.IndicaHash 1 787 1/Home/StonedValley.IndicaDabPen 10/false/Farming 4",
+                "StonedValley.SativaDisposable": "StonedValley.SativaHash 1 787 1/Home/StonedValley.SativaDisposable 10/false/Farming 4",
+                "StonedValley.CbdBathBomb": "StonedValley.CbdOil 1 815 1 330 1/Home/StonedValley.CbdBathBomb 2/false/Farming 3"
             }
         }
     ]

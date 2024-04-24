@@ -37,6 +37,12 @@
             "AllowValues": "Base",
             "Default": "Base",
             "AllowBlank": false
+        },
+        "InfuserColor": {
+            "Description": "Option to choose your infuser color. Defaults to base blue and red color.",
+            "AllowValues": "Base",
+            "Default": "Base",
+            "AllowBlank": false
         }
     },
     "Changes": [
@@ -51,7 +57,7 @@
         {
             "LogName": "Stoned Valley Objects",
             "Action": "Include",
-            "FromFile": "data/crops.json, data/objects.json",
+            "FromFile": "data/crops.json, data/objects.json, data/objects_df.json",
         },
         {
             "LogName": "Stoned Valley Machines",
@@ -67,6 +73,11 @@
             "LogName": "Stoned Valley Shop",
             "Action": "Include",
             "FromFile": "data/shop_pierre.json",
+        },
+        {
+            "LogName": "Stoned Valley Buffs",
+            "Action":"Include",
+            "FromFile": "data/buffs.json"
         }
     ]
 }

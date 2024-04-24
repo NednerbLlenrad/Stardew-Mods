@@ -74,6 +74,11 @@
                     "Id": "StonedValley.Grinder",
                     "ItemId": "StonedValley.Grinder",
                     "IgnoreShopPriceModifiers": true
+                },
+                "StonedValley.LiquidInfuser": {
+                    "Id": "StonedValley.LiquidInfuser",
+                    "ItemId": "StonedValley.LiquidInfuser",
+                    "IgnoreShopPriceModifiers": true,
                 }
             },
             "MoveEntries": [
@@ -89,7 +94,8 @@
                 {"Id": "StonedValley.RollingTray_Blunt", "BeforeId": "GrassStarter"},
                 {"Id": "StonedValley.RollingTray_Blunt_Rose", "BeforeId": "GrassStarter"},
                 {"Id": "StonedValley.HempRack", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley.HashPress", "BeforeId": "GrassStarter"}
+                {"Id": "StonedValley.HashPress", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.LiquidInfuser", "BeforeId": "GrassStarter"}
             ]
         }
     ]
