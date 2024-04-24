@@ -8,8 +8,8 @@
             "Entries": {
                 "StonedValley.HempRack": {
                     "Name": "StonedValley.HempRack",
-                    "DisplayName": "Hemp Rack",
-                    "Description": "A machine for drying out hemp to make cloth.",
+                    "DisplayName": "Drying Rack",
+                    "Description": "A machine for drying out herbs and flowers, and hemp to make cloth.",
                     "Price": 1000,
                     "Fragility": 0,
                     "CanBePlacedOutdoors": true,
@@ -48,6 +48,42 @@
                                 }
                             ],
                             "MinutesUntilReady": 240
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.DryRose",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": 595,
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.DryRose",
+                                    "ItemId": "StonedValley.DryRose",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 240
+                        },
+                        {
+                            "Id": "StonedValley.StonedValley.DryBud", 
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.CbdBud",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.DryBud",
+                                    "ItemId": "(0)StonedValley.DryBud",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 40
                         }
                     ],
                     "WobbleWhileWorking": true,

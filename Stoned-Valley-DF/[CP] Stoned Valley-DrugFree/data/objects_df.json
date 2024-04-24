@@ -1,3 +1,4 @@
+//CBD and Hemp related objects
 {
     "Changes": [
           //Crops
@@ -10,7 +11,7 @@
                     "DisplayName": "Cbd Bud",
                     "Description": "A relaxing plant that cures aches and cannabis.",
                     "Type": "Basic",
-                    "Category": -75,
+                    "Category": -80,
                     "Price": 20,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 4,
@@ -24,7 +25,7 @@
                     "DisplayName": "Hemp Bud",
                     "Description": "A tough and fibourous plant with many uses.",
                     "Type": "Basic",
-                    "Category": -75,
+                    "Category": -80,
                     "Price": 20,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 8,
@@ -63,7 +64,6 @@
             }
         },
         //Artisan Goods
-        //Blunts and Joints
         {
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -74,7 +74,7 @@
                     "DisplayName": "CBD Oil",
                     "Description": "A relaxing oil that soothes aches and pains.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 120,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 38,
@@ -82,24 +82,8 @@
                     "Buffs": [
                         {
                             "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 120,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 300
                         }
                     ],
                     "ContextTags": [
@@ -112,7 +96,7 @@
                     "DisplayName": "CBD Gummy",
                     "Description": "A relaxing gummy that soothes aches and pains.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 200,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 44,
@@ -120,24 +104,8 @@
                     "Buffs": [
                         {
                             "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 480,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 360
                         }
                     ],
                     "ContextTags": [
@@ -150,7 +118,7 @@
                     "DisplayName": "CBD Brownie",
                     "Description": "A relaxing brownie that soothes aches and pains.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -7,
                     "Price": 300,
                     "Texture": "DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 50,
@@ -158,43 +126,88 @@
                     "Buffs": [
                         {
                             "Id": "Relaxed",
-                            "BuffId": null,
-                            "IconTexture": "DookieMaster.StonedValley/Buffs",
-                            "IconSpriteIndex": 0,
-                            "Duration": 540,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 90.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 2.0,
-                                "Defense": 2.0,
-                                "Attack": 0.0
-                            }
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 480
                         }
                     ],
                     "ContextTags": [
                         "color_light_green"
                     ]
                 },
-                //HempFiber
+                //Dried stuff
                 "StonedValley.DryHempFiber": {
                     "Name": "StonedValley.DryHempFiber",
                     "DisplayName": "Dried Hemp Fiber",
                     "Description": "A tough plant fiber that can be used to make cloth.",
                     "Type": "Basic",
-                    "Category": -16,
+                    "Category": -26,
                     "Price": 40,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 17,
                     "Edibility": -300,
                     "ContextTags": [
                         "color_orange"
+                    ] 
+                },
+                "StonedValley.DryBud": {
+                    "Name": "StonedValley.DryBud",
+                    "DisplayName": "Dry Bud",
+                    "Description": "Dried cannabis",
+                    "Type":"Basic",
+                    "Category": -26,
+                    "Price": 60,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 23
+                },
+                "StonedValley.DryRose": {
+                    "Name": "StonedValley.DryRose",
+                    "DisplayName": "Dried Rose",
+                    "Description": "Dried fairy rose.",
+                    "Type":"Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 22
+                },
+                //Hemp Seeds
+                "StonedValley.RoastedHempSeeds": {
+                    "Name": "StonedValley.RoastedHempSeeds",
+                    "DisplayName": "Roasted Hemp Seeds",
+                    "Description": "A tasty and hearty snack.",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 110,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 29,
+                    "Edibility": 20
+                },
+                //CBD Products:
+                "StonedValley.CbdLotion": {
+                    "Name": "StonedValley.CbdLotion",
+                    "DisplayName": "CBD Lotion",
+                    "Description": "A relaxing and relieving lotion made with coconuts.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 300,
+                    "Texture":"DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 40,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "color_purple"
+                    ] 
+                },
+                "StonedValley.CbdBathBomb": {
+                    "Name": "StonedValley.CbdBathBomb",
+                    "DisplayName": "CBD Bath Bomb",
+                    "Description": "A relaxing and relieving bath bomb.",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 250,
+                    "Texture":"DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 46,
+                    "Edibility": -300,
+                    "ContextTags": [
+                        "color_purple"
                     ] 
                 }
             }

@@ -21,7 +21,7 @@
         {
             "LogName": "Stoned Valley Objects",
             "Action": "Include",
-            "FromFile": "data/crops.json, data/objects.json",
+            "FromFile": "data/crops.json, data/objects_df.json",
         },
         {
             "LogName": "Stoned Valley Machines",
@@ -37,6 +37,11 @@
             "LogName": "Stoned Valley Shop",
             "Action": "Include",
             "FromFile": "data/shop_pierre.json",
+        },
+        {
+            "LogName": "Stoned Valley Buffs",
+            "Action":"Include",
+            "FromFile": "data/buffs.json"
         }
     ]
 }
