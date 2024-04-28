@@ -7,8 +7,8 @@
             "Entries": {
                 "StonedValley.SativaBud": {
                     "Name": "StonedValley.SativaBud",
-                    "DisplayName": "Sativa Bud",
-                    "Description": "An uplifiting and energetic strain of cannabis.",
+                    "DisplayName": "{{i18n: StonedValley.SativaBud.name }}",
+                    "Description": "{{i18n: StonedValley.SativaBud.description }}",
                     "Type": "Basic",
                     "Category": -80,
                     "Price": 40,
@@ -21,8 +21,8 @@
                 },
                 "StonedValley.IndicaBud": {
                     "Name": "StonedValley.IndicaBud",
-                    "DisplayName": "Indica Bud",
-                    "Description": "A relaxing and creative strain of cannabis.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaBud.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaBud.description }}",
                     "Type": "Basic",
                     "Category": -80,
                     "Price": 40,
@@ -35,8 +35,8 @@
                 },
                 "StonedValley.HybridBud": {
                         "Name": "StonedValley.HybridBud",
-                        "DisplayName": "Hybrid Bud",
-                        "Description": "A happy and soothing strain of cannabis.",
+                        "DisplayName": "{{i18n: StonedValley.HybridBud.name }}",
+                        "Description": "{{i18n: StonedValley.HybridBud.description }}",
                         "Type": "Basic",
                         "Category": -80,
                         "Price": 40,
@@ -56,8 +56,8 @@
             "Entries": {
                 "StonedValley.SativaSeeds": { 
                 "Name": "StonedValley.SativaSeeds", 
-                "DisplayName": "Sativa Seeds", 
-                "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
+                "DisplayName": "{{i18n: StonedValley.SativaSeeds.name }}",
+                "Description": "{{i18n: StonedValley.SativaSeeds.description }}",
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 100, 
@@ -66,8 +66,8 @@
             },
                 "StonedValley.IndicaSeeds": { //Item Object
                 "Name": "StonedValley.IndicaSeeds", //Item ID
-                "DisplayName": "Indica Seeds", //Name in game
-                "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
+                "DisplayName": "{{i18n: StonedValley.IndicaSeeds.name }}",
+                "Description": "{{i18n: StonedValley.IndicaSeeds.description }}",
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 100, 
@@ -76,8 +76,8 @@
             },
                 "StonedValley.HybridSeeds": { //Item Object
                 "Name": "StonedValley.HybridSeeds", //Item ID
-                "DisplayName": "Hybrid Seeds", //Name in game
-                "Description": "Plant in any season except winter. Takes 14 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
+                "DisplayName": "{{i18n: StonedValley.HybridSeeds.name }}",
+                "Description": "{{i18n: StonedValley.HybridSeeds.description }}",
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 100, 
@@ -93,11 +93,11 @@
             "Target": "Data/Objects",
             "Entries": {
 
-                //JOoints
+                //Joints
                 "StonedValley.CbdJoint": {
                     "Name": "StonedValley.CbdJoint",
-                    "DisplayName": "CBD Joint",
-                    "Description": "A relaxing joint that soothes aches and pains.",
+                    "DisplayName": "{{i18n: StonedValley.CbdJoint.name }}",
+                    "Description": "{{i18n: StonedValley.CbdJoint.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 60,
@@ -122,8 +122,8 @@
                 },
                 "StonedValley.HybridJoint": {
                     "Name": "StonedValley.HybridJoint",
-                    "DisplayName": "Hybrid Joint",
-                    "Description": "A happy and soothing cannabis joint.",
+                    "DisplayName": "{{i18n: StonedValley.HybridJoint.name }}",
+                    "Description": "{{i18n: StonedValley.HybridJoint.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 100,
@@ -148,8 +148,8 @@
                 },
                 "StonedValley.IndicaJoint": {
                     "Name": "StonedValley.IndicaJoint",
-                    "DisplayName": "Indica Joint",
-                    "Description": "A relaxing and creative joint.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaJoint.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaJoint.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 100,
@@ -174,8 +174,8 @@
                 },
                 "StonedValley.SativaJoint": {
                     "Name": "StonedValley.SativaJoint",
-                    "DisplayName": "Sativa Joint",
-                    "Description": "An uplifiting and energetic joint.",
+                    "DisplayName": "{{i18n: StonedValley.SativaJoint.name }}",
+                    "Description": "{{i18n: StonedValley.SativaJoint.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 100,
@@ -203,8 +203,8 @@
                 //Blunts
                 "StonedValley.CbdBlunt": {
                     "Name": "StonedValley.CbdBlunt",
-                    "DisplayName": "CBD Blunt",
-                    "Description": "A relaxing blunt that soothes aches and pains.",
+                    "DisplayName": "{{i18n: StonedValley.CbdBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.CbdBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 80,
@@ -229,8 +229,8 @@
                 },
                 "StonedValley.HybridBlunt": {
                     "Name": "StonedValley.HybridBlunt",
-                    "DisplayName": "Hybrid Blunt",
-                    "Description": "A happy and soothing cannabis blunt.",
+                    "DisplayName": "{{i18n: StonedValley.HybridBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.HybridBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 150,
@@ -255,8 +255,8 @@
                 },
                 "StonedValley.IndicaBlunt": {
                     "Name": "StonedValley.IndicaBlunt",
-                    "DisplayName": "Indica Blunt",
-                    "Description": "A relaxing and creative blunt.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 150,
@@ -281,8 +281,8 @@
                 },
                 "StonedValley.SativaBlunt": {
                     "Name": "StonedValley.Sativa Blunt",
-                    "DisplayName": "Sativa Blunt",
-                    "Description": "An uplifiting and energetic blunt.",
+                    "DisplayName": "{{i18n: StonedValley.SativaBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.SativaBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 150,
@@ -310,8 +310,8 @@
                 //Rose Blunts
                 "StonedValley.CbdRoseBlunt": {
                     "Name": "StonedValley.CbdRoseBlunt",
-                    "DisplayName": "CBD Rose Blunt",
-                    "Description": "A relaxing rose blunt that soothes aches and pains.",
+                    "DisplayName": "{{i18n: StonedValley.CbdRoseBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.CbdRoseBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 120,
@@ -336,8 +336,8 @@
                 },
                 "StonedValley.HybridRoseBlunt": {
                     "Name": "StonedValley.HybridRoseBlunt",
-                    "DisplayName": "Hybrid Rose Blunt",
-                    "Description": "A happy and soothing cannabis rose blunt.",
+                    "DisplayName": "{{i18n: StonedValley.HybridRoseBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.HybridRoseBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -362,8 +362,8 @@
                 },
                 "StonedValley.IndicaRoseBlunt": {
                     "Name": "StonedValley.IndicaRoseBlunt",
-                    "DisplayName": "Indica Rose Blunt",
-                    "Description": "A relaxing and creative rose blunt.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaRoseBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaRoseBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -388,8 +388,8 @@
                 },
                 "StonedValley.SativaRoseBlunt": {
                     "Name": "StonedValley.SativaRoseBlunt",
-                    "DisplayName": "Sativa Rose Blunt",
-                    "Description": "An uplifiting and energetic rose blunt.",
+                    "DisplayName": "{{i18n: StonedValley.SativaRoseBlunt.name }}",
+                    "Description": "{{i18n: StonedValley.SativaRoseBlunt.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -417,8 +417,8 @@
                 //Wraps
                 "StonedValley.Wraps": {
                     "Name": "StonedValley.Wraps",
-                    "DisplayName": "Wraps",
-                    "Description": "Used for wrapping various 'herbs' into smokeable versions.",
+                    "DisplayName": "{{i18n: StonedValley.Wraps.name }}",
+                    "Description": "{{i18n: StonedValley.Wraps.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 10,
@@ -430,8 +430,8 @@
                 },
                 "StonedValley.BluntWraps": {
                     "Name": "StonedValley.BluntWraps",
-                    "DisplayName": "Blunt Wraps",
-                    "Description": "A hemp wrap used for rolling various blunts.",
+                    "DisplayName": "{{i18n: StonedValley.BluntWraps.name }}",
+                    "Description": "{{i18n: StonedValley.BluntWraps.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 50,
@@ -443,8 +443,8 @@
                 },
                 "StonedValley.RoseWraps": {
                     "Name": "StonedValley.RoseWraps",
-                    "DisplayName": "Rose Wraps",
-                    "Description": "A rose petal wrap used for rolling various blunts.",
+                    "DisplayName": "{{i18n: StonedValley.RoseWraps.name }}",
+                    "Description": "{{i18n: StonedValley.RoseWraps.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 100,
@@ -456,11 +456,11 @@
                 },
 
 
-                //Wax
+                //Hash
                 "StonedValley.CbdHash": {
                     "Name": "StonedValley.CbdHash",
-                    "DisplayName": "CBD Hash",
-                    "Description": "A relaxing hash oil that soothes aches and pains.",
+                    "DisplayName": "{{i18n: StonedValley.CbdHash.name }}",
+                    "Description": "{{i18n: StonedValley.CbdHash.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 120,
@@ -485,8 +485,8 @@
                 },
                 "StonedValley.HybridHash": {
                     "Name": "StonedValley.HybridHash",
-                    "DisplayName": "Hybrid Hash",
-                    "Description": "A happy and soothing hash oil.",
+                    "DisplayName": "{{i18n: StonedValley.HybridHash.name }}",
+                    "Description": "{{i18n: StonedValley.HybridHash.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -511,8 +511,8 @@
                 },
                 "StonedValley.IndicaHash": {
                     "Name": "StonedValley.IndicaHash",
-                    "DisplayName": "Indica Hash",
-                    "Description": "A relaxing and creative hash oil.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaHash.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaHash.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -537,8 +537,8 @@
                 },
                 "StonedValley.SativaHash":{
                     "Name": "StonedValley.SativaHash",
-                    "DisplayName": "Sativa Hash",
-                    "Description": "An uplifiting and energetic hash oil.",
+                    "DisplayName": "{{i18n: StonedValley.SativaHash.name }}",
+                    "Description": "{{i18n: StonedValley.SativaHash.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -564,8 +564,8 @@
                 //Oil
                 "StonedValley.HybridOil": {
                     "Name": "StonedValley.HybridOil",
-                    "DisplayName": "Hybrid Oil",
-                    "Description": "A happy and soothing oil.",
+                    "DisplayName": "{{i18n: StonedValley.HybridOil.name }}",
+                    "Description": "{{i18n: StonedValley.HybridOil.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -585,8 +585,8 @@
                 },
                 "StonedValley.IndicaOil": {
                     "Name": "StonedValley.IndicaOil",
-                    "DisplayName": "Indica Oil",
-                    "Description": "A relaxing and creative oil.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaOil.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaOil.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -606,8 +606,8 @@
                 },
                 "StonedValley.SativaOil":{
                     "Name": "StonedValley.SativaOil",
-                    "DisplayName": "Sativa Oil",
-                    "Description": "An uplifiting and energetic oil.",
+                    "DisplayName": "{{i18n: StonedValley.SativaOil.name }}",
+                    "Description": "{{i18n: StonedValley.SativaOil.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
@@ -628,8 +628,8 @@
                 //Gummies
                 "StonedValley.HybridGummy": {
                     "Name": "StonedValley.HybridGummy",
-                    "DisplayName": "Hybrid Gummy",
-                    "Description": "A happy and soothing gummy.",
+                    "DisplayName": "{{i18n: StonedValley.HybridGummy.name }}",
+                    "Description": "{{i18n: StonedValley.HybridGummy.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 300,
@@ -649,8 +649,8 @@
                 },
                 "StonedValley.IndicaGummy": {
                     "Name": "StonedValley.IndicaGummy",
-                    "DisplayName": "Indica Gummy",
-                    "Description": "A relaxing and creative gummy.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaGummy.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaGummy.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 300,
@@ -670,8 +670,8 @@
                 },
                 "StonedValley.SativaGummy":{
                     "Name": "StonedValley.SativaGummy",
-                    "DisplayName": "Sativa Gummy",
-                    "Description": "An uplifiting and energetic gummy.",
+                    "DisplayName": "{{i18n: StonedValley.SativaGummy.name }}",
+                    "Description": "{{i18n: StonedValley.SativaGummy.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 300,
@@ -692,8 +692,8 @@
                 //Brownies
                 "StonedValley.HybridBrownie": {
                     "Name": "StonedValley.HybridBrownie",
-                    "DisplayName": "Hybrid Brownie",
-                    "Description": "A happy and soothing brownie.",
+                    "DisplayName": "{{i18n: StonedValley.HybridBrownie.name }}",
+                    "Description": "{{i18n: StonedValley.HybridBrownie.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 350,
@@ -713,8 +713,8 @@
                 },
                 "StonedValley.IndicaBrownie": {
                     "Name": "StonedValley.IndicaBrownie",
-                    "DisplayName": "Indica Brownie",
-                    "Description": "A relaxing and creative brownie.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaBrownie.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaBrownie.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 350,
@@ -734,8 +734,8 @@
                 },
                 "StonedValley.SativaBrownie":{
                     "Name": "StonedValley.SativaBrownie",
-                    "DisplayName": "Sativa Brownie",
-                    "Description": "An uplifiting and energetic brownie.",
+                    "DisplayName": "{{i18n: StonedValley.SativaBrownie.name }}",
+                    "Description": "{{i18n: StonedValley.SativaBrownie.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 350,
@@ -756,8 +756,8 @@
                 //Infused Joja Cola
                 "StonedValley.InfusedJojaColaS": {
                     "Name": "StonedValley.InfusedJojaColaS",
-                    "DisplayName": "Infused Joja Cola",
-                    "Description": "A sativa infused drink.",
+                    "DisplayName": "{{i18n: StonedValley.InfusedJojaColaS.name }}",
+                    "Description": "{{i18n: StonedValley.InfusedJojaColaS.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 130,
@@ -797,8 +797,8 @@
                 },
                 "StonedValley.InfusedJojaColaI": {
                     "Name": "StonedValley.InfusedJojaColaI",
-                    "DisplayName": "Infused Joja Cola",
-                    "Description": "An indica infused drink.",
+                    "DisplayName": "{{i18n: StonedValley.InfusedJojaColaI.name }}",
+                    "Description": "{{i18n: StonedValley.InfusedJojaColaI.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 130,
@@ -838,8 +838,8 @@
                 },
                 "StonedValley.InfusedJojaColaH": {
                     "Name": "StonedValley.InfusedJojaColaH",
-                    "DisplayName": "Infused Joja Cola",
-                    "Description": "A hybrid infused drink.",
+                    "DisplayName": "{{i18n: StonedValley.InfusedJojaColaH.name }}",
+                    "Description": "{{i18n: StonedValley.InfusedJojaColaH.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 130,
@@ -879,8 +879,8 @@
                 },
                 "StonedValley.InfusedJojaColaC": {
                     "Name": "StonedValley.InfusedJojaColaC",
-                    "DisplayName": "Infused Joja Cola",
-                    "Description": "A cbd infused drink.",
+                    "DisplayName": "{{i18n: StonedValley.InfusedJojaColaC.name }}",
+                    "Description": "{{i18n: StonedValley.InfusedJojaColaC.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 130,
@@ -921,8 +921,8 @@
                 //Honey
                 "StonedValley.InfusedHoneyH": {
                     "Name": "StonedValley.InfusedHoneyH",
-                    "DisplayName": "Infused Honey",
-                    "Description": "Honey infused with cannabis.",
+                    "DisplayName": "{{i18n: StonedValley.InfusedHoneyH.name }}",
+                    "Description": "{{i18n: StonedValley.InfusedHoneyH.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 425,
@@ -936,8 +936,8 @@
                 //Dab Pens and Disposables
                 "StonedValley.IndicaDabPen": {
                     "Name": "StonedValley.IndicaDabPen",
-                    "DisplayName": "Indica Dab Pen",
-                    "Description": "A battery and cartridge for vaping.",
+                    "DisplayName": "{{i18n: StonedValley.IndicaDabPen.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaDabPen.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 100,
@@ -955,8 +955,8 @@
                 },
                 "StonedValley.SativaDisposable": {
                     "Name": "StonedValley.SativaDisposable",
-                    "DisplayName": "Sativa Disposable",
-                    "Description": "A battery and cartridge for vaping.",
+                    "DisplayName": "{{i18n: StonedValley.SativaDisposable.name }}",
+                    "Description": "{{i18n: StonedValley.SativaDisposable.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 100,
@@ -975,8 +975,8 @@
                 //Ground Cannabis
                 "StonedValley.GroundIndicaBud": {
                     "Name": "StonedValley.GroundIndicaBud",
-                    "DisplayName": "Ground Indica Bud",
-                    "Description": "A relaxing and creative ground version of the bud.",
+                    "DisplayName": "{{i18n: StonedValley.GroundIndicaBud.name }}",
+                    "Description": "{{i18n: StonedValley.GroundIndicaBud.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 40,
@@ -989,8 +989,8 @@
                 },
                 "StonedValley.GroundHybridBud": {
                     "Name": "StonedValley.GroundHybridBud",
-                    "DisplayName": "Ground Hybrid Bud",
-                    "Description": "A happy and soothing ground version of the bud.",
+                    "DisplayName": "{{i18n: StonedValley.GroundHybridBud.name }}",
+                    "Description": "{{i18n: StonedValley.GroundHybridBud.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 40,
@@ -1003,8 +1003,8 @@
                 },
                 "StonedValley.GroundSativaBud": {
                     "Name": "StonedValley.GroundSativaBud",
-                    "DisplayName": "Ground Sativa Bud",
-                    "Description": "An uplifiting and energetic ground version of the bud.",
+                    "DisplayName": "{{i18n: StonedValley.GroundSativaBud.name }}",
+                    "Description": "{{i18n: StonedValley.GroundSativaBud.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 40,
@@ -1017,8 +1017,8 @@
                 },
                 "StonedValley.GroundCbdBud": {
                     "Name": "StonedValley.GroundCbdBud",
-                    "DisplayName": "Ground CBD Bud",
-                    "Description": "A relaxing and relieving ground version of the bud.",
+                    "DisplayName": "{{i18n: StonedValley.GroundCbdBud.name }}",
+                    "Description": "{{i18n: StonedValley.GroundCbdBud.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 40,

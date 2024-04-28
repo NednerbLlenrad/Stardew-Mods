@@ -5,8 +5,8 @@
             "Target": "Data/Buffs",
             "Entries": {
                 "StonedValley.Relaxed": {
-                    "DisplayName": "Relaxed (CBD)",
-                    "Description":"Your muscles and bones feel soothed and relaxed...",
+                    "DisplayName": "{{i18n: StonedValley.Relaxed.name }}",
+                    "Description": "{{i18n: StonedValley.Relaxed.description }}",
                     "IconTexture": "DookieMaster.StonedValley/Buffs",
                     "IconSpriteIndex": 0,
                     "Duration": 84000,

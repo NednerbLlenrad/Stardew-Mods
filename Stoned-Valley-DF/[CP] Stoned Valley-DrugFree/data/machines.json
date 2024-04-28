@@ -8,8 +8,8 @@
             "Entries": {
                 "StonedValley.HempRack": {
                     "Name": "StonedValley.HempRack",
-                    "DisplayName": "Drying Rack",
-                    "Description": "A machine for drying out herbs and flowers, and hemp to make cloth.",
+                    "DisplayName": "{{i18n: StonedValley.HempRack.name }}",
+                    "Description": "{{i18n: StonedValley.HempRack.description }}",
                     "Price": 1000,
                     "Fragility": 0,
                     "CanBePlacedOutdoors": true,
@@ -17,6 +17,19 @@
                     "isLamp": false,
                     "Texture": "DookieMaster.StonedValley/Machines_{{RackColor}}",
                     "SpriteIndex": 32,
+                    "CustomFields": {}
+                },
+                "StonedValley.LiquidInfuser": {
+                    "Name": "StonedValley.LiquidInfuser",
+                    "DisplayName": "{{i18n: StonedValley.LiquidInfuser.name }}",
+                    "Description": "{{i18n: StonedValley.LiquidInfuser.description }}",
+                    "Price": 1000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "isLamp": false,
+                    "Texture": "DookieMaster.StonedValley/Machines_{{InfuserColor}}",
+                    "SpriteIndex": 48,
                     "CustomFields": {}
                 }
             }
@@ -27,6 +40,45 @@
             "Action": "EditData",
             "Target": "Data/Machines",
             "Entries": {
+                "(BC)StonedValley.LiquidInfuser": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        //JojaCola
+                        {
+                            "Id": "StonedValley.StonedValley.InfusedJojaColaC",
+                            "Triggers": [
+                                {
+                                    "Trigger":"ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)StonedValley.CbdBud",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "StonedValley.StonedValley.InfusedJojaColaC",
+                                    "ItemId": "(O)StonedValley.InfusedJojaColaC",
+                                    "CopyQuality": true
+                                }
+                            ],
+                            "MinutesUntilReady": 240
+                        }
+                    ],
+                    "AdditionalConsumedItems": [
+                        {
+                           "ItemId": "(O)167", 
+                           "RequiredCount": 1,
+                           "InvalidCountMessage": "{{i18n: StonedValley.LiquidInfuser.InvalidCount.message }}", 
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "WorkingEffects": [
+                        {
+                        "Frames": [1,2,3,4,5,6,7],
+                        "Interval": 100
+                        }
+                    ]
+                },
                 "(BC)StonedValley.HempRack": {
                     "HasInput": false,
                     "HasOutput": false,
@@ -43,7 +95,7 @@
                             "OutputItem": [
                                 {
                                     "Id": "StonedValley.StonedValley.DryHempFiber",
-                                    "ItemId": "(0)StonedValley.DryHempFiber",
+                                    "ItemId": "(O)StonedValley.DryHempFiber",
                                     "CopyQuality": true
                                 }
                             ],
@@ -79,7 +131,7 @@
                             "OutputItem": [
                                 {
                                     "Id": "StonedValley.StonedValley.DryBud",
-                                    "ItemId": "(0)StonedValley.DryBud",
+                                    "ItemId": "(O)StonedValley.DryBud",
                                     "CopyQuality": true
                                 }
                             ],
@@ -115,7 +167,7 @@
                     "OutputItem": [
                         {
                             "Id": "StonedValley.StonedValley.CbdOil",
-                            "ItemId": "(0)StonedValley.CbdOil",
+                            "ItemId": "(O)StonedValley.CbdOil",
                             "CopyQuality": true
                         }
                     ],
@@ -135,14 +187,14 @@
                     "Triggers": [
                         {
                             "Trigger": "ItemPlacedInMachine",
-                            "ItemId": "(0)StonedValley.DryHempFiber",
+                            "ItemId": "(O)StonedValley.DryHempFiber",
                             "RequiredCount": 10
                         }
                     ],
                     "OutputItem": [
                         {
                             "Id": "428",
-                            "ItemId": "(0)428",
+                            "ItemId": "(O)428",
                             "CopyQuality": true
                         }
                     ],

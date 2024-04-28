@@ -8,8 +8,8 @@
             "Entries": {
                 "StonedValley.CbdBud": {
                     "Name": "StonedValley.CbdBud",
-                    "DisplayName": "Cbd Bud",
-                    "Description": "A relaxing plant that cures aches and cannabis.",
+                    "DisplayName": "{{i18n: StonedValley.CbdBud.name }}",
+                    "Description": "{{i18n: StonedValley.CbdBud.description }}",
                     "Type": "Basic",
                     "Category": -80,
                     "Price": 20,
@@ -22,8 +22,8 @@
                 },
                 "StonedValley.HempBud": {
                     "Name": "StonedValley.HempBud",
-                    "DisplayName": "Hemp Bud",
-                    "Description": "A tough and fibourous plant with many uses.",
+                    "DisplayName": "{{i18n: StonedValley.HempBud.name }}",
+                    "Description": "{{i18n: StonedValley.HempBud.description }}",
                     "Type": "Basic",
                     "Category": -80,
                     "Price": 20,
@@ -43,8 +43,8 @@
             "Entries": {
                 "StonedValley.CbdSeeds": { //Item Object
                 "Name": "StonedValley.CbdSeeds", //Item ID
-                "DisplayName": "CBD Seeds", //Name in game
-                "Description": "Plant in any season except winter. Takes 10 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
+                "DisplayName": "{{i18n: StonedValley.CbdSeeds.name }}",
+                "Description": "{{i18n: StonedValley.CbdSeeds.description }}",
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 80, 
@@ -53,8 +53,8 @@
             },
                 "StonedValley.HempSeeds": { //Item Object
                 "Name": "StonedValley.HempSeeds", //Item ID
-                "DisplayName": "Hemp Seeds", //Name in game
-                "Description": "Plant in any season except winter. Takes 12 days to grown and will keep producing after. Yields multiple crops on harvest.", //Description in game
+                "DisplayName": "{{i18n: StonedValley.HempSeeds.name }}",
+                "Description": "{{i18n: StonedValley.HempSeeds.description }}",
                 "Type": "Seed", 
                 "Category": -74, 
                 "Price": 50, 
@@ -71,8 +71,8 @@
                 //Oil
                 "StonedValley.CbdOil": {
                     "Name": "StonedValley.CbdOil",
-                    "DisplayName": "CBD Oil",
-                    "Description": "A relaxing oil that soothes aches and pains.",
+                    "DisplayName": "{{i18n: StonedValley.CbdOil.name }}",
+                    "Description": "{{i18n: StonedValley.CbdOil.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 120,
@@ -93,8 +93,8 @@
                 //Gummies
                 "StonedValley.CbdGummy": {
                     "Name": "StonedValley.CbdGummy",
-                    "DisplayName": "CBD Gummy",
-                    "Description": "A relaxing gummy that soothes aches and pains.",
+                    "DisplayName": "{{i18n: StonedValley.CbdGummy.name }}",
+                    "Description": "{{i18n: StonedValley.CbdGummy.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 200,
@@ -115,8 +115,8 @@
                 //Brownies
                 "StonedValley.CbdBrownie": {
                     "Name": "StonedValley.CbdBrownie",
-                    "DisplayName": "CBD Brownie",
-                    "Description": "A relaxing brownie that soothes aches and pains.",
+                    "DisplayName": "{{i18n: StonedValley.CbdBrownie.name }}",
+                    "Description": "{{i18n: StonedValley.CbdBrownie.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 300,
@@ -137,8 +137,8 @@
                 //Dried stuff
                 "StonedValley.DryHempFiber": {
                     "Name": "StonedValley.DryHempFiber",
-                    "DisplayName": "Dried Hemp Fiber",
-                    "Description": "A tough plant fiber that can be used to make cloth.",
+                    "DisplayName": "{{i18n: StonedValley.DryHempFiber.name }}",
+                    "Description": "{{i18n: StonedValley.DryHempFiber.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 40,
@@ -151,8 +151,8 @@
                 },
                 "StonedValley.DryBud": {
                     "Name": "StonedValley.DryBud",
-                    "DisplayName": "Dry Bud",
-                    "Description": "Dried cannabis",
+                    "DisplayName": "{{i18n: StonedValley.DryBud.name }}",
+                    "Description": "{{i18n: StonedValley.DryBud.description }}",
                     "Type":"Basic",
                     "Category": -26,
                     "Price": 60,
@@ -161,8 +161,8 @@
                 },
                 "StonedValley.DryRose": {
                     "Name": "StonedValley.DryRose",
-                    "DisplayName": "Dried Rose",
-                    "Description": "Dried fairy rose.",
+                    "DisplayName": "{{i18n: StonedValley.DryRose.name }}",
+                    "Description": "{{i18n: StonedValley.DryRose.description }}",
                     "Type":"Basic",
                     "Category": -26,
                     "Price": 100,
@@ -172,8 +172,8 @@
                 //Hemp Seeds
                 "StonedValley.RoastedHempSeeds": {
                     "Name": "StonedValley.RoastedHempSeeds",
-                    "DisplayName": "Roasted Hemp Seeds",
-                    "Description": "A tasty and hearty snack.",
+                    "DisplayName": "{{i18n: StonedValley.RoastedHempSeeds.name }}",
+                    "Description": "{{i18n: StonedValley.RoastedHempSeeds.description }}",
                     "Type": "Basic",
                     "Category": -7,
                     "Price": 110,
@@ -184,32 +184,87 @@
                 //CBD Products:
                 "StonedValley.CbdLotion": {
                     "Name": "StonedValley.CbdLotion",
-                    "DisplayName": "CBD Lotion",
-                    "Description": "A relaxing and relieving lotion made with coconuts.",
+                    "DisplayName": "{{i18n: StonedValley.CbdLotion.name }}",
+                    "Description": "{{i18n: StonedValley.CbdLotion.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 300,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 40,
-                    "Edibility": -300,
+                    "Edibility": 40,
+                    "Buffs": [
+                        {
+                            "Id": "Relaxed",
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 480
+                        }
+                    ],
                     "ContextTags": [
                         "color_purple"
                     ] 
                 },
                 "StonedValley.CbdBathBomb": {
                     "Name": "StonedValley.CbdBathBomb",
-                    "DisplayName": "CBD Bath Bomb",
-                    "Description": "A relaxing and relieving bath bomb.",
+                    "DisplayName": "{{i18n: StonedValley.CbdBathBomb.name }}",
+                    "Description": "{{i18n: StonedValley.CbdBathBomb.description }}",
                     "Type": "Basic",
                     "Category": -26,
                     "Price": 250,
                     "Texture":"DookieMaster.StonedValley/Objects",
                     "SpriteIndex": 46,
-                    "Edibility": -300,
+                    "Edibility": 40,
+                    "Buffs": [
+                        {
+                            "Id": "Relaxed",
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 480
+                        }
+                    ],
                     "ContextTags": [
                         "color_purple"
                     ] 
-                }
+                },
+                "StonedValley.InfusedJojaColaC": {
+                    "Name": "StonedValley.InfusedJojaColaC",
+                    "DisplayName": "{{i18n: StonedValley.InfusedJojaColaC.name }}",
+                    "Description": "{{i18n: StonedValley.InfusedJojaColaC.description }}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 130,
+                    "Texture": "DookieMaster.StonedValley/Objects",
+                    "SpriteIndex": 34,
+                    "Edibility": 10,
+                    "IsDrink": true,
+                    "Buffs": [
+                        {
+                            "Id":"Relaxed",
+                            "BuffId": "StonedValley.Relaxed",
+                            "Duration": 180                            
+                        },
+                        {
+                            "Id": "Drink",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 30,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                              "FarmingLevel": 0.0,
+                              "FishingLevel": 0.0,
+                              "MiningLevel": 0.0,
+                              "LuckLevel": 0.0,
+                              "ForagingLevel": 0.0,
+                              "MaxStamina": 0.0,
+                              "MagneticRadius": 0.0,
+                              "Speed": 2.0,
+                              "Defense": 0.0,
+                              "Attack": 0.0
+                            },
+                            "CustomFields": null
+                          }
+                    ] 
+                },
             }
         }
     ]

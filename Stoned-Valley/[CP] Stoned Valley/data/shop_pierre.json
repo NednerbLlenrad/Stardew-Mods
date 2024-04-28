@@ -95,7 +95,8 @@
                 {"Id": "StonedValley.RollingTray_Blunt_Rose", "BeforeId": "GrassStarter"},
                 {"Id": "StonedValley.HempRack", "BeforeId": "GrassStarter"},
                 {"Id": "StonedValley.HashPress", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley.LiquidInfuser", "BeforeId": "GrassStarter"}
+                {"Id": "StonedValley.LiquidInfuser", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.Grinder", "BeforeId": "GrassStarter"}
             ]
         }
     ]

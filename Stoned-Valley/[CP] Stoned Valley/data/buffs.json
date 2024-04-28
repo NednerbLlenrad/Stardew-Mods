@@ -5,8 +5,8 @@
             "Target": "Data/Buffs",
             "Entries": {
                 "StonedValley.IndicaHigh": {
-                    "DisplayName": "High (Indica)",
-                    "Description": "You feel very relaxed...",
+                    "DisplayName": "{{i18n: StonedValley.IndicaHigh.name }}",
+                    "Description": "{{i18n: StonedValley.IndicaHigh.description }}",
                     "IconTexture": "DookieMaster.StonedValley/Buffs",
                     "IconSpriteIndex": 2,
                     "Duration": 84000,
@@ -26,8 +26,8 @@
                     } 
                 },
                 "StonedValley.SativaHigh": {
-                    "DisplayName": "High (Sativa)",
-                    "Description": "You feel very energized...",
+                    "DisplayName": "{{i18n: StonedValley.SativaHigh.name }}",
+                    "Description": "{{i18n: StonedValley.SativaHigh.description }}",
                     "IconTexture": "DookieMaster.StonedValley/Buffs",
                     "IconSpriteIndex": 3,
                     "Duration": 84000,
@@ -47,8 +47,8 @@
                     } 
                 },
                 "StonedValley.HybridHigh": {
-                    "DisplayName": "High (Hybrid)",
-                    "Description": "You feel very balanced...",
+                    "DisplayName": "{{i18n: StonedValley.HybridHigh.name }}",
+                    "Description": "{{i18n: StonedValley.HybridHigh.description }}",
                     "IconTexture": "DookieMaster.StonedValley/Buffs",
                     "IconSpriteIndex": 1,
                     "Duration": 84000,
@@ -68,18 +68,18 @@
                     } 
                 },
                 "StonedValley.Stinky": {
-                    "DisplayName": "Stinky",
-                    "Description":"You smell reeeeal nice...",
+                    "DisplayName": "{{i18n: StonedValley.Stinky.name }}",
+                    "Description": "{{i18n: StonedValley.Stinky.description }}",
                     "IconTexture": "DookieMaster.StonedValley/Buffs",
                     "IconSpriteIndex": 5,
                     "Duration": 84000,
                     "IsDebuff": false,
-                    "GlowColor": "Green",
-                    "CustomAttributes": null,
+                    "GlowColor": null,
+                    "CustomAttributes": null
                 },
                 "StonedValley.Relaxed": {
-                    "DisplayName": "Relaxed (CBD)",
-                    "Description":"Your muscles and bones feel soothed and relaxed...",
+                    "DisplayName": "{{i18n: StonedValley.Relaxed.name }}",
+                    "Description": "{{i18n: StonedValley.Relaxed.description }}",
                     "IconTexture": "DookieMaster.StonedValley/Buffs",
                     "IconSpriteIndex": 0,
                     "Duration": 84000,

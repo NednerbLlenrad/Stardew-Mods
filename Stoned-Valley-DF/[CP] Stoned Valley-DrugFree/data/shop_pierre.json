@@ -19,12 +19,18 @@
                     "Id": "StonedValley.HempRack",
                     "ItemId": "StonedValley.HempRack",
                     "IgnoreShopPriceModifiers": true
+                },
+                "StonedValley.LiquidInfuser": {
+                    "Id": "StonedValley.LiquidInfuser",
+                    "ItemId": "StonedValley.LiquidInfuser",
+                    "IgnoreShopPriceModifiers": true,
                 }
             },
             "MoveEntries": [
                 {"Id": "StonedValley.HempSeeds", "BeforeId": "GrassStarter"},
                 {"Id": "StonedValley.CbdSeeds", "BeforeId": "GrassStarter"},
-                {"Id": "StonedValley.HempRack", "BeforeId": "GrassStarter"}
+                {"Id": "StonedValley.HempRack", "BeforeId": "GrassStarter"},
+                {"Id": "StonedValley.LiquidInfuser", "BeforeId": "GrassStarter"}
             ]
         }
     ]
