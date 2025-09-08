@@ -1,0 +1,58 @@
+{
+  "Changes": [
+    /* Always add CBD/Hemp + neutral supplies */
+    {
+      "LogName": "SeedShop (CBD/Hemp + supplies)",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "StonedValley.CbdSeeds":  { "Id": "StonedValley.CbdSeeds",  "ItemId": "StonedValley.CbdSeeds",  "IgnoreShopPriceModifiers": true },
+        "StonedValley.HempSeeds": { "Id": "StonedValley.HempSeeds", "ItemId": "StonedValley.HempSeeds", "IgnoreShopPriceModifiers": true },
+        "StonedValley.HempRack":              { "Id": "StonedValley.HempRack",              "ItemId": "StonedValley.HempRack",              "IgnoreShopPriceModifiers": true },
+        "StonedValley.LiquidInfuser":         { "Id": "StonedValley.LiquidInfuser",         "ItemId": "StonedValley.LiquidInfuser",         "IgnoreShopPriceModifiers": true }
+      },
+      "MoveEntries": [
+        { "Id": "StonedValley.HempSeeds", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.CbdSeeds",  "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.HempRack", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.LiquidInfuser", "BeforeId": "GrassStarter" }
+      ]
+    },
+
+    /* Add I/S/H seeds only when DrugFree is false */
+    {
+      "LogName": "SeedShop (Indica/Hybrid/Sativa gated by DrugFree)",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "When": { "DrugFree": "false" },
+      "Entries": {
+        "StonedValley.Wraps":     { "Id": "StonedValley.Wraps",     "ItemId": "StonedValley.Wraps",     "IgnoreShopPriceModifiers": true },
+        "StonedValley.BluntWraps":{ "Id": "StonedValley.BluntWraps","ItemId": "StonedValley.BluntWraps","IgnoreShopPriceModifiers": true },
+        "StonedValley.RoseWraps": { "Id": "StonedValley.RoseWraps", "ItemId": "StonedValley.RoseWraps", "IgnoreShopPriceModifiers": true },
+        "StonedValley.RollingTray":           { "Id": "StonedValley.RollingTray",           "ItemId": "StonedValley.RollingTray",           "IgnoreShopPriceModifiers": true },
+        "StonedValley.RollingTray_Blunt":     { "Id": "StonedValley.RollingTray_Blunt",     "ItemId": "StonedValley.RollingTray_Blunt",     "IgnoreShopPriceModifiers": true },
+        "StonedValley.RollingTray_Blunt_Rose":{ "Id": "StonedValley.RollingTray_Blunt_Rose","ItemId": "StonedValley.RollingTray_Blunt_Rose","IgnoreShopPriceModifiers": true },
+        "StonedValley.HashPress":             { "Id": "StonedValley.HashPress",             "ItemId": "StonedValley.HashPress",             "IgnoreShopPriceModifiers": true },
+        "StonedValley.Grinder":               { "Id": "StonedValley.Grinder",               "ItemId": "StonedValley.Grinder",               "IgnoreShopPriceModifiers": true },
+        "StonedValley.SativaSeeds": { "Id": "StonedValley.SativaSeeds", "ItemId": "StonedValley.SativaSeeds", "IgnoreShopPriceModifiers": true },
+        "StonedValley.IndicaSeeds": { "Id": "StonedValley.IndicaSeeds", "ItemId": "StonedValley.IndicaSeeds", "IgnoreShopPriceModifiers": true },
+        "StonedValley.HybridSeeds": { "Id": "StonedValley.HybridSeeds", "ItemId": "StonedValley.HybridSeeds", "IgnoreShopPriceModifiers": true }
+      },
+      "MoveEntries": [
+        { "Id": "StonedValley.Wraps",     "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.BluntWraps","BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.RoseWraps", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.RollingTray", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.RollingTray_Blunt", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.RollingTray_Blunt_Rose", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.HashPress", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.Grinder", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.HybridSeeds", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.IndicaSeeds", "BeforeId": "GrassStarter" },
+        { "Id": "StonedValley.SativaSeeds", "BeforeId": "GrassStarter" }
+      ]
+    }
+  ]
+}

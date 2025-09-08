@@ -1,0 +1,41 @@
+{
+  "Changes": [
+    {
+      "LogName": "Adventurer's Guild stock (MarlonShop)",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": ["MarlonShop", "Items"],
+      "Entries": {
+        "StonedValley.SherlockDagger": {
+          "Id": "StonedValley.SherlockDagger",
+          "ItemId": "StonedValley.SherlockDagger",
+          "Price": 2500,
+          "MaxSold": -1,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_COMBAT_LEVEL >= 4"
+        },
+        "StonedValley.DabPick": {
+          "Id": "StonedValley.DabPick",
+          "ItemId": "StonedValley.DabPick",
+          "Price": 6000,
+          "MaxSold": -1,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_COMBAT_LEVEL >= 6"
+        },
+        "StonedValley.HeavyBong": {
+          "Id": "StonedValley.HeavyBong",
+          "ItemId": "StonedValley.HeavyBong",
+          "Price": 9000,
+          "MaxSold": -1,
+          "IgnoreShopPriceModifiers": true,
+          "Condition": "PLAYER_COMBAT_LEVEL >= 8"
+        }
+      },
+      "MoveEntries": [
+        { "Id": "StonedValley.SherlockDagger", "BeforeId": "IronDirk" },
+        { "Id": "StonedValley.DabPick",        "BeforeId": "SteelSmallsword" },
+        { "Id": "StonedValley.HeavyBong",      "BeforeId": "TemplarsBlade" }
+      ]
+    }
+  ]
+}

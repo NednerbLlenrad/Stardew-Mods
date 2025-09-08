@@ -1,0 +1,10 @@
+{
+  "Name": "Black Bucket Hat",
+  "DisplayName": "Black Bucket Hat",
+  "Description": "Simple and clean.",
+  "CanPurchase": false,
+  "EnableHairDraw": true,
+  "ShowHair": true,
+  "SpriteIndex": 0,
+  "Texture": "hats/Black Bucket Hat/hat.png"
+}

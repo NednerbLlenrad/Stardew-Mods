@@ -1,0 +1,58 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Weapons",
+      "Entries": {
+        "StonedValley.HeavyBong": {
+          "Name": "StonedValley.HeavyBong",
+          "DisplayName": "Heavy Bong",
+          "Description": "A new meaning to bong hits.",
+          "Type": 2,                       
+          "MinDamage": 40,
+          "MaxDamage": 55,
+          "Knockback": 0.3,
+          "Speed": 2,
+          "Precision": 0,
+          "Defense": 1,
+          "CritChance": 0.02,
+          "CritMultiplier": 3.0,
+          "Texture": "DookieMaster.StonedValley/Weapons",
+          "SpriteIndex": 0
+        },
+        "StonedValley.SherlockDagger": {
+          "Name": "StonedValley.SherlockDagger",
+          "DisplayName": "Sherlock Pipe",
+          "Description": "A curved glass ‘dagger’—quick pokes, big crits.",
+          "Type": 1,                         
+          "MinDamage": 20,
+          "MaxDamage": 35,
+          "Knockback": 0.2,
+          "Speed": 4,
+          "Precision": 0,
+          "Defense": 0,
+          "CritChance": 0.10,
+          "CritMultiplier": 3.2,
+          "Texture": "DookieMaster.StonedValley/Weapons",
+          "SpriteIndex": 1
+        },
+        "StonedValley.DabPick": {
+          "Name": "StonedValley.DabPick",
+          "DisplayName": "Dab Pick",
+          "Description": "A razor-thin pick for precise strikes.",
+          "Type": 0,                        
+          "MinDamage": 30,
+          "MaxDamage": 45,
+          "Knockback": 0.25,
+          "Speed": 1,
+          "Precision": 0,
+          "Defense": 0,
+          "CritChance": 0.05,
+          "CritMultiplier": 3.0,
+          "Texture": "DookieMaster.StonedValley/Weapons",
+          "SpriteIndex": 2
+        }
+      }
+    }
+  ]
+}

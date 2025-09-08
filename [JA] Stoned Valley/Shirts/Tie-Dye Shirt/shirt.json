@@ -1,0 +1,8 @@
+{
+  "Name": "Tie-Dye Shirt",
+  "DisplayName": "Tie-Dye Shirt",
+  "Description": "Hand-dyed swirl of colors.",
+  "Type": "Shirt",
+  "HasFemaleVariant": false,
+  "Dyeable": false
+}

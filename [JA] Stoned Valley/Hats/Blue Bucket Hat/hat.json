@@ -1,0 +1,10 @@
+{
+  "Name": "Blue Bucket Hat",
+  "DisplayName": "Blue Bucket Hat",
+  "Description": "A casual blue bucket hat.",
+  "CanPurchase": false,
+  "EnableHairDraw": true,
+  "ShowHair": true,
+  "SpriteIndex": 0,
+  "Texture": "hats/Blue Bucket Hat/hat.png"
+}

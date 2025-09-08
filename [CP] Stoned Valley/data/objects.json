@@ -1,0 +1,970 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": { "DrugFree": "false" },
+      "Entries": {
+        "StonedValley.SativaBud": {
+          "Name": "StonedValley.SativaBud",
+          "DisplayName": "{{i18n: StonedValley.SativaBud.name }}",
+          "Description": "{{i18n: StonedValley.SativaBud.description }}",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 40,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 6,
+          "Edibility": -50,
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.IndicaBud": {
+          "Name": "StonedValley.IndicaBud",
+          "DisplayName": "{{i18n: StonedValley.IndicaBud.name }}",
+          "Description": "{{i18n: StonedValley.IndicaBud.description }}",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 40,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 0,
+          "Edibility": -50,
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.HybridBud": {
+          "Name": "StonedValley.HybridBud",
+          "DisplayName": "{{i18n: StonedValley.HybridBud.name }}",
+          "Description": "{{i18n: StonedValley.HybridBud.description }}",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 40,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 2,
+          "Edibility": -50,
+          "ContextTags": [
+            "color_green"
+          ]
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "StonedValley.SativaSeeds": {
+          "Name": "StonedValley.SativaSeeds",
+          "DisplayName": "{{i18n: StonedValley.SativaSeeds.name }}",
+          "Description": "{{i18n: StonedValley.SativaSeeds.description }}",
+          "Type": "Seed",
+          "Category": -74,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 7
+        },
+        "StonedValley.IndicaSeeds": {
+          "Name": "StonedValley.IndicaSeeds",
+          "DisplayName": "{{i18n: StonedValley.IndicaSeeds.name }}",
+          "Description": "{{i18n: StonedValley.IndicaSeeds.description }}",
+          "Type": "Seed",
+          "Category": -74,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 1
+        },
+        "StonedValley.HybridSeeds": {
+          "Name": "StonedValley.HybridSeeds",
+          "DisplayName": "{{i18n: StonedValley.HybridSeeds.name }}",
+          "Description": "{{i18n: StonedValley.HybridSeeds.description }}",
+          "Type": "Seed",
+          "Category": -74,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 3
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "StonedValley.CbdJoint": {
+          "Name": "StonedValley.CbdJoint",
+          "DisplayName": "{{i18n: StonedValley.CbdJoint.name }}",
+          "Description": "{{i18n: StonedValley.CbdJoint.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 60,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 14,
+          "Edibility": 20,
+          "Buffs": [
+            {
+              "Id": "Relaxed",
+              "BuffId": "StonedValley.Relaxed",
+              "Duration": 200
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_dark_green"
+          ]
+        },
+        "StonedValley.HybridJoint": {
+          "Name": "StonedValley.HybridJoint",
+          "DisplayName": "{{i18n: StonedValley.HybridJoint.name }}",
+          "Description": "{{i18n: StonedValley.HybridJoint.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 13,
+          "Edibility": 10,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 200
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.IndicaJoint": {
+          "Name": "StonedValley.IndicaJoint",
+          "DisplayName": "{{i18n: StonedValley.IndicaJoint.name }}",
+          "Description": "{{i18n: StonedValley.IndicaJoint.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 12,
+          "Edibility": 5,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 200
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.SativaJoint": {
+          "Name": "StonedValley.SativaJoint",
+          "DisplayName": "{{i18n: StonedValley.SativaJoint.name }}",
+          "Description": "{{i18n: StonedValley.SativaJoint.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 15,
+          "Edibility": 15,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 200
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.CbdBlunt": {
+          "Name": "StonedValley.CbdBlunt",
+          "DisplayName": "{{i18n: StonedValley.CbdBlunt.name }}",
+          "Description": "{{i18n: StonedValley.CbdBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 80,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 26,
+          "Edibility": 25,
+          "Buffs": [
+            {
+              "Id": "Relaxed",
+              "BuffId": "StonedValley.Relaxed",
+              "Duration": 300
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_light_green"
+          ]
+        },
+        "StonedValley.HybridBlunt": {
+          "Name": "StonedValley.HybridBlunt",
+          "DisplayName": "{{i18n: StonedValley.HybridBlunt.name }}",
+          "Description": "{{i18n: StonedValley.HybridBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 150,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 25,
+          "Edibility": 12,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 300
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.IndicaBlunt": {
+          "Name": "StonedValley.IndicaBlunt",
+          "DisplayName": "{{i18n: StonedValley.IndicaBlunt.name }}",
+          "Description": "{{i18n: StonedValley.IndicaBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 150,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 24,
+          "Edibility": -5,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 300
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.SativaBlunt": {
+          "Name": "StonedValley.Sativa Blunt",
+          "DisplayName": "{{i18n: StonedValley.SativaBlunt.name }}",
+          "Description": "{{i18n: StonedValley.SativaBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 150,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 27,
+          "Edibility": 15,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 300
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.CbdRoseBlunt": {
+          "Name": "StonedValley.CbdRoseBlunt",
+          "DisplayName": "{{i18n: StonedValley.CbdRoseBlunt.name }}",
+          "Description": "{{i18n: StonedValley.CbdRoseBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 120,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 18,
+          "Edibility": 25,
+          "Buffs": [
+            {
+              "Id": "Relaxed",
+              "BuffId": "StonedValley.Relaxed",
+              "Duration": 420
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_light_green"
+          ]
+        },
+        "StonedValley.HybridRoseBlunt": {
+          "Name": "StonedValley.HybridRoseBlunt",
+          "DisplayName": "{{i18n: StonedValley.HybridRoseBlunt.name }}",
+          "Description": "{{i18n: StonedValley.HybridRoseBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 19,
+          "Edibility": 12,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 420
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.IndicaRoseBlunt": {
+          "Name": "StonedValley.IndicaRoseBlunt",
+          "DisplayName": "{{i18n: StonedValley.IndicaRoseBlunt.name }}",
+          "Description": "{{i18n: StonedValley.IndicaRoseBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 18,
+          "Edibility": -10,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 420
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.SativaRoseBlunt": {
+          "Name": "StonedValley.SativaRoseBlunt",
+          "DisplayName": "{{i18n: StonedValley.SativaRoseBlunt.name }}",
+          "Description": "{{i18n: StonedValley.SativaRoseBlunt.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 21,
+          "Edibility": 15,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 420
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.Wraps": {
+          "Name": "StonedValley.Wraps",
+          "DisplayName": "{{i18n: StonedValley.Wraps.name }}",
+          "Description": "{{i18n: StonedValley.Wraps.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 10,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 10,
+          "Edibility": -300,
+          "ContextTags": null,
+          "CustomFields": null
+        },
+        "StonedValley.BluntWraps": {
+          "Name": "StonedValley.BluntWraps",
+          "DisplayName": "{{i18n: StonedValley.BluntWraps.name }}",
+          "Description": "{{i18n: StonedValley.BluntWraps.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 50,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 11,
+          "Edibility": -300,
+          "ContextTags": null,
+          "CustomFields": null
+        },
+        "StonedValley.RoseWraps": {
+          "Name": "StonedValley.RoseWraps",
+          "DisplayName": "{{i18n: StonedValley.RoseWraps.name }}",
+          "Description": "{{i18n: StonedValley.RoseWraps.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 16,
+          "Edibility": -300,
+          "ContextTags": null,
+          "CustomFields": null
+        },
+        "StonedValley.CbdHash": {
+          "Name": "StonedValley.CbdHash",
+          "DisplayName": "{{i18n: StonedValley.CbdHash.name }}",
+          "Description": "{{i18n: StonedValley.CbdHash.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 120,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 32,
+          "Edibility": 25,
+          "Buffs": [
+            {
+              "Id": "Relaxed",
+              "BuffId": "StonedValley.Relaxed",
+              "Duration": 240
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_light_green"
+          ]
+        },
+        "StonedValley.HybridHash": {
+          "Name": "StonedValley.HybridHash",
+          "DisplayName": "{{i18n: StonedValley.HybridHash.name }}",
+          "Description": "{{i18n: StonedValley.HybridHash.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 31,
+          "Edibility": 12,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 240
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.IndicaHash": {
+          "Name": "StonedValley.IndicaHash",
+          "DisplayName": "{{i18n: StonedValley.IndicaHash.name }}",
+          "Description": "{{i18n: StonedValley.IndicaHash.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 30,
+          "Edibility": -10,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 240
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.SativaHash": {
+          "Name": "StonedValley.SativaHash",
+          "DisplayName": "{{i18n: StonedValley.SativaHash.name }}",
+          "Description": "{{i18n: StonedValley.SativaHash.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 33,
+          "Edibility": 15,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 240
+            },
+            {
+              "Id": "Stinky",
+              "BuffId": "StonedValley.Stinky",
+              "Duration": 60
+            }
+          ],
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.HybridOil": {
+          "Name": "StonedValley.HybridOil",
+          "DisplayName": "{{i18n: StonedValley.HybridOil.name }}",
+          "Description": "{{i18n: StonedValley.HybridOil.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 37,
+          "Edibility": 12,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 300
+            }
+          ],
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.IndicaOil": {
+          "Name": "StonedValley.IndicaOil",
+          "DisplayName": "{{i18n: StonedValley.IndicaOil.name }}",
+          "Description": "{{i18n: StonedValley.IndicaOil.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 36,
+          "Edibility": -10,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 300
+            }
+          ],
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.SativaOil": {
+          "Name": "StonedValley.SativaOil",
+          "DisplayName": "{{i18n: StonedValley.SativaOil.name }}",
+          "Description": "{{i18n: StonedValley.SativaOil.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 250,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 39,
+          "Edibility": 15,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 300
+            }
+          ],
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.HybridGummy": {
+          "Name": "StonedValley.HybridGummy",
+          "DisplayName": "{{i18n: StonedValley.HybridGummy.name }}",
+          "Description": "{{i18n: StonedValley.HybridGummy.description }}",
+          "Type": "Basic",
+          "Category": -7,
+          "Price": 300,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 43,
+          "Edibility": 12,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 360
+            }
+          ],
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.IndicaGummy": {
+          "Name": "StonedValley.IndicaGummy",
+          "DisplayName": "{{i18n: StonedValley.IndicaGummy.name }}",
+          "Description": "{{i18n: StonedValley.IndicaGummy.description }}",
+          "Type": "Basic",
+          "Category": -7,
+          "Price": 300,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 42,
+          "Edibility": -10,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 360
+            }
+          ],
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.SativaGummy": {
+          "Name": "StonedValley.SativaGummy",
+          "DisplayName": "{{i18n: StonedValley.SativaGummy.name }}",
+          "Description": "{{i18n: StonedValley.SativaGummy.description }}",
+          "Type": "Basic",
+          "Category": -7,
+          "Price": 300,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 45,
+          "Edibility": 15,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 360
+            }
+          ],
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.HybridBrownie": {
+          "Name": "StonedValley.HybridBrownie",
+          "DisplayName": "{{i18n: StonedValley.HybridBrownie.name }}",
+          "Description": "{{i18n: StonedValley.HybridBrownie.description }}",
+          "Type": "Basic",
+          "Category": -7,
+          "Price": 350,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 49,
+          "Edibility": 30,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 480
+            }
+          ],
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.IndicaBrownie": {
+          "Name": "StonedValley.IndicaBrownie",
+          "DisplayName": "{{i18n: StonedValley.IndicaBrownie.name }}",
+          "Description": "{{i18n: StonedValley.IndicaBrownie.description }}",
+          "Type": "Basic",
+          "Category": -7,
+          "Price": 350,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 48,
+          "Edibility": -20,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 480
+            }
+          ],
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.SativaBrownie": {
+          "Name": "StonedValley.SativaBrownie",
+          "DisplayName": "{{i18n: StonedValley.SativaBrownie.name }}",
+          "Description": "{{i18n: StonedValley.SativaBrownie.description }}",
+          "Type": "Basic",
+          "Category": -7,
+          "Price": 350,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 51,
+          "Edibility": 25,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 480
+            }
+          ],
+          "ContextTags": [
+            "color_orange"
+          ]
+        },
+        "StonedValley.InfusedJojaColaS": {
+          "Name": "StonedValley.InfusedJojaColaS",
+          "DisplayName": "{{i18n: StonedValley.InfusedJojaColaS.name }}",
+          "Description": "{{i18n: StonedValley.InfusedJojaColaS.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 130,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 34,
+          "Edibility": 10,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 180
+            },
+            {
+              "Id": "Drink",
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "Duration": 30,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 0.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 0.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 2.0,
+                "Defense": 0.0,
+                "Attack": 0.0
+              },
+              "CustomFields": null
+            }
+          ]
+        },
+        "StonedValley.InfusedJojaColaI": {
+          "Name": "StonedValley.InfusedJojaColaI",
+          "DisplayName": "{{i18n: StonedValley.InfusedJojaColaI.name }}",
+          "Description": "{{i18n: StonedValley.InfusedJojaColaI.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 130,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 34,
+          "Edibility": 10,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 180
+            },
+            {
+              "Id": "Drink",
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "Duration": 30,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 0.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 0.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 2.0,
+                "Defense": 0.0,
+                "Attack": 0.0
+              },
+              "CustomFields": null
+            }
+          ]
+        },
+        "StonedValley.InfusedJojaColaH": {
+          "Name": "StonedValley.InfusedJojaColaH",
+          "DisplayName": "{{i18n: StonedValley.InfusedJojaColaH.name }}",
+          "Description": "{{i18n: StonedValley.InfusedJojaColaH.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 130,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 34,
+          "Edibility": 10,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "High (Hybrid)",
+              "BuffId": "StonedValley.HybridHigh",
+              "Duration": 180
+            },
+            {
+              "Id": "Drink",
+              "BuffId": null,
+              "IconTexture": null,
+              "IconSpriteIndex": 0,
+              "Duration": 30,
+              "IsDebuff": false,
+              "GlowColor": null,
+              "CustomAttributes": {
+                "FarmingLevel": 0.0,
+                "FishingLevel": 0.0,
+                "MiningLevel": 0.0,
+                "LuckLevel": 0.0,
+                "ForagingLevel": 0.0,
+                "MaxStamina": 0.0,
+                "MagneticRadius": 0.0,
+                "Speed": 2.0,
+                "Defense": 0.0,
+                "Attack": 0.0
+              },
+              "CustomFields": null
+            }
+          ]
+        },
+        "StonedValley.InfusedHoneyH": {
+          "Name": "StonedValley.InfusedHoneyH",
+          "DisplayName": "{{i18n: StonedValley.InfusedHoneyH.name }}",
+          "Description": "{{i18n: StonedValley.InfusedHoneyH.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 425,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 28,
+          "Edibility": -300,
+          "ContexTags": [
+            "honey_item"
+          ]
+        },
+        "StonedValley.IndicaDabPen": {
+          "Name": "StonedValley.IndicaDabPen",
+          "DisplayName": "{{i18n: StonedValley.IndicaDabPen.name }}",
+          "Description": "{{i18n: StonedValley.IndicaDabPen.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 35,
+          "Edibility": 10,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "High (Indica)",
+              "BuffId": "StonedValley.IndicaHigh",
+              "Duration": 120
+            }
+          ]
+        },
+        "StonedValley.SativaDisposable": {
+          "Name": "StonedValley.SativaDisposable",
+          "DisplayName": "{{i18n: StonedValley.SativaDisposable.name }}",
+          "Description": "{{i18n: StonedValley.SativaDisposable.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 100,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 41,
+          "Edibility": 10,
+          "IsDrink": true,
+          "Buffs": [
+            {
+              "Id": "High (Sativa)",
+              "BuffId": "StonedValley.SativaHigh",
+              "Duration": 120
+            }
+          ]
+        },
+        "StonedValley.GroundIndicaBud": {
+          "Name": "StonedValley.GroundIndicaBud",
+          "DisplayName": "{{i18n: StonedValley.GroundIndicaBud.name }}",
+          "Description": "{{i18n: StonedValley.GroundIndicaBud.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 40,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 54,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.GroundHybridBud": {
+          "Name": "StonedValley.GroundHybridBud",
+          "DisplayName": "{{i18n: StonedValley.GroundHybridBud.name }}",
+          "Description": "{{i18n: StonedValley.GroundHybridBud.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 40,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 55,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_green"
+          ]
+        },
+        "StonedValley.GroundSativaBud": {
+          "Name": "StonedValley.GroundSativaBud",
+          "DisplayName": "{{i18n: StonedValley.GroundSativaBud.name }}",
+          "Description": "{{i18n: StonedValley.GroundSativaBud.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 40,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 57,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_purple"
+          ]
+        },
+        "StonedValley.GroundCbdBud": {
+          "Name": "StonedValley.GroundCbdBud",
+          "DisplayName": "{{i18n: StonedValley.GroundCbdBud.name }}",
+          "Description": "{{i18n: StonedValley.GroundCbdBud.description }}",
+          "Type": "Basic",
+          "Category": -26,
+          "Price": 40,
+          "Texture": "DookieMaster.StonedValley/Objects",
+          "SpriteIndex": 56,
+          "Edibility": -300,
+          "ContextTags": [
+            "color_purple"
+          ]
+        }
+      }
+    }
+  ]
+}
