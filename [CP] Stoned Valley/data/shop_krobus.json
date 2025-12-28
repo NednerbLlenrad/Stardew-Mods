@@ -8,7 +8,7 @@
       "Entries": {
         "SV.AlbumBundle.MBPelicanF":       { "Id": "SV.AlbumBundle.MBPelicanF",       "ItemId": "(F)StonedValley.AlbumBundle_MBPelicanF",       "Price": 3000, "MaxSold": 1 },
         "SV.AlbumBundle.RandomMelodies":   { "Id": "SV.AlbumBundle.RandomMelodies",   "ItemId": "(F)StonedValley.AlbumBundle_RandomMelodies",   "Price": 3000, "MaxSold": 1 },
-        "SV.AlbumBundle.IGOR":             { "Id": "SV.AlbumBundle.IGOR",             "ItemId": "(F)StonedValley.AlbumBundle_IGOR",             "Price": 3000, "MaxSold": 1 },
+        "SV.AlbumBundle.IGROW":             { "Id": "SV.AlbumBundle.IGROW",             "ItemId": "(F)StonedValley.AlbumBundle_IGROW",             "Price": 3000, "MaxSold": 1 },
         "SV.AlbumBundle.Parsnipanoid":     { "Id": "SV.AlbumBundle.Parsnipanoid",     "ItemId": "(F)StonedValley.AlbumBundle_Parsnipanoid",     "Price": 3000, "MaxSold": 1 },
         "SV.AlbumBundle.DarkSideCalico":   { "Id": "SV.AlbumBundle.DarkSideCalico",   "ItemId": "(F)StonedValley.AlbumBundle_DarkSideCalico",   "Price": 3500, "MaxSold": 1 },
         "SV.AlbumBundle.RemainInLight":    { "Id": "SV.AlbumBundle.RemainInLight",    "ItemId": "(F)StonedValley.AlbumBundle_RemainInLight",    "Price": 3000, "MaxSold": 1 },
