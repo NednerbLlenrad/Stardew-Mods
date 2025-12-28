@@ -1,6 +1,6 @@
 {
   "Changes": [
-    /* Always add CBD/Hemp + neutral supplies */
+
     {
       "LogName": "SeedShop (CBD/Hemp + supplies)",
       "Action": "EditData",
@@ -20,7 +20,6 @@
       ]
     },
 
-    /* Add I/S/H seeds only when DrugFree is false */
     {
       "LogName": "SeedShop (Indica/Hybrid/Sativa gated by DrugFree)",
       "Action": "EditData",

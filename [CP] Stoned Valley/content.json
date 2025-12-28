@@ -1,61 +1,32 @@
 {
   "Format": "2.0.0",
   "ConfigSchema": {
-    "TrayColor": {
-      "Description": "Option to choose your rolling tray color. Defaults to base grey color.",
-      "AllowValues": "Base",
-      "Default": "Base",
-      "AllowBlank": false
-    },
-    "TrayColor_Blunt": {
-      "Description": "Option to choose your blunt rolling tray color. Defaults to base grey color.",
-      "AllowValues": "Base",
-      "Default": "Base",
-      "AllowBlank": false
-    },
-    "TrayColor_Rose": {
-      "Description": "Option to choose your rose blunt rolling tray color. Defaults to base grey color.",
-      "AllowValues": "Base",
-      "Default": "Base",
-      "AllowBlank": false
-    },
-    "PressColor": {
-      "Description": "Option to choose your hash press color. Defaults to base metal color.",
-      "AllowValues": "Base",
-      "Default": "Base",
-      "AllowBlank": false
-    },
-    "RackColor": {
-      "Description": "Option to choose your drying rack color. Defaults to base brown color.",
-      "AllowValues": "Base",
-      "Default": "Base",
-      "AllowBlank": false
-    },
-    "GrinderColor": {
-      "Description": "Option to choose your grinder color. Defaults to base grey color.",
-      "AllowValues": "Base",
-      "Default": "Base",
-      "AllowBlank": false
-    },
-    "InfuserColor": {
-      "Description": "Option to choose your infuser color. Defaults to base blue and red color.",
-      "AllowValues": "Base",
-      "Default": "Base",
-      "AllowBlank": false
-    },
-    "DrugFree": {
-      "Description": "If true, disables Indica, Sativa, and Hybrid crops/objects.",
-      "AllowValues": "true, false",
-      "Default": "false",
-      "AllowBlank": false
-    }
+    "TrayColor":        { "Description": "Rolling tray sheet",          "AllowValues": "Base, Blue, Red", "Default": "Base", "AllowBlank": false },
+    "TrayColor_Blunt":  { "Description": "Blunt rolling tray sheet",    "AllowValues": "Base, Blue, Red", "Default": "Base", "AllowBlank": false },
+    "TrayColor_Rose":   { "Description": "Rose blunt tray sheet",       "AllowValues": "Base, Blue, Red", "Default": "Base", "AllowBlank": false },
+    "PressColor":       { "Description": "Hash press sheet",            "AllowValues": "Base, Blue, Red", "Default": "Base", "AllowBlank": false },
+    "RackColor":        { "Description": "Drying rack sheet",           "AllowValues": "Base, Blue, Red", "Default": "Base", "AllowBlank": false },
+    "GrinderColor":     { "Description": "Grinder sheet",               "AllowValues": "Base, Blue, Red", "Default": "Base", "AllowBlank": false },
+    "InfuserColor":     { "Description": "Liquid infuser sheet",        "AllowValues": "Base, Blue, Red", "Default": "Base", "AllowBlank": false },
+    "DrugFree":         { "Description": "If true, disables Indica, Sativa, and Hybrid crops/objects.", "AllowValues": "true, false", "Default": "false", "AllowBlank": false }
   },
   "Changes": [
     {
-      "LogName": "Stoned Valley Images",
+      "LogName": "Stoned Valley Images (Core)",
       "Action": "Load",
-      "Target": "DookieMaster.StonedValley/Crops, DookieMaster.StonedValley/Objects, DookieMaster.StonedValley/Buffs, DookieMaster.StonedValley/Machines_Base",
+      "Target": "DookieMaster.StonedValley/Crops, DookieMaster.StonedValley/Objects, DookieMaster.StonedValley/Buffs",
       "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+
+
+    { "LogName": "Machines (Base)", "Action": "Load", "Target": "DookieMaster.StonedValley/Machines_Base", "FromFile": "assets/Machines_Base.png" },
+    { "LogName": "Machines (Blue)", "Action": "Load", "Target": "DookieMaster.StonedValley/Machines_Blue", "FromFile": "assets/Machines_Base_Alt1.png" },
+    { "LogName": "Machines (Red)",  "Action": "Load", "Target": "DookieMaster.StonedValley/Machines_Red",  "FromFile": "assets/Machines_Base_Alt2.png" },
+    {
+      "LogName": "Stoned Valley Records Texture",
+      "Action": "Load",
+      "Target": "StonedValley_Records",
+      "FromFile": "assets/Records.png"
     },
     {
       "LogName": "Stoned Valley Furniture Texture",
@@ -69,40 +40,15 @@
       "Target": "DookieMaster.StonedValley/Weapons",
       "FromFile": "assets/Weapons.png"
     },
-    {
-      "LogName": "Stoned Valley Objects",
-      "Action": "Include",
-      "FromFile": "data/crops.json, data/objects.json, data/objects_df.json"
-    },
-    {
-      "LogName": "Stoned Valley Machines",
-      "Action": "Include",
-      "FromFile": "data/machines.json"
-    },
-    {
-      "LogName": "Stoned Valley Furniture",
-      "Action": "Include",
-      "FromFile": "data/furniture.json"
-    },
-    {
-      "LogName": "Stoned Valley Weapons",
-      "Action": "Include",
-      "FromFile": "data/weapons.json"
-    },
-    {
-      "LogName": "Stoned Valley Recipes",
-      "Action": "Include",
-      "FromFile": "data/recipes.json"
-    },
-    {
-      "LogName": "Stoned Valley Shop",
-      "Action": "Include",
-      "FromFile": "data/shop_pierre.json, data/shop_sandy.json, data/shop_adventurersguild.json"
-    },
-    {
-      "LogName": "Stoned Valley Buffs",
-      "Action": "Include",
-      "FromFile": "data/buffs.json"
-    }
+    { "LogName": "Stoned Valley Objects",   "Action": "Include", "FromFile": "data/crops.json, data/objects.json, data/objects_df.json" },
+    { "LogName": "Stoned Valley Machines",  "Action": "Include", "FromFile": "data/machines.json" },
+    { "LogName": "Stoned Valley Furniture", "Action": "Include", "FromFile": "data/furniture.json" },
+    { "LogName": "Stoned Valley Records", "Action": "Include", "FromFile": "data/records.json" },
+    { "LogName": "Stoned Valley Weapons",   "Action": "Include", "FromFile": "data/weapons.json" },
+    { "LogName": "Stoned Valley Recipes",   "Action": "Include", "FromFile": "data/recipes.json" },
+    { "LogName": "Stoned Valley Tailoring", "Action": "Include", "FromFile": "data/tailoring.json" },
+    { "LogName": "Stoned Valley Hat Mouse Shop", "Action": "Include", "FromFile": "data/shop_hatmouse.json" },
+    { "LogName": "Stoned Valley Shop",      "Action": "Include", "FromFile": "data/shop_pierre.json, data/shop_sandy.json, data/shop_blacksmith.json, data/shop_krobus.json" },
+    { "LogName": "Stoned Valley Buffs",     "Action": "Include", "FromFile": "data/buffs.json" }
   ]
 }

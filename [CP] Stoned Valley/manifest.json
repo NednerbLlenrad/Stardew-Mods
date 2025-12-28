@@ -1,20 +1,12 @@
 {
-  "Name": "Stoned Valley",
-  "Author": "DookieMaster",
-  "Version": "0.0.5",
-  "Description": "Become the valley's master budtender, as you grow and sell various strains and infused products!",
-  "UniqueID": "DookieMaster.StonedValley",
-  "MinimumApiVersion": "4.0.0",
-  "UpdateKeys": [
-    "Nexus:22873"
-  ],
-  "ContentPackFor": {
-    "UniqueID": "Pathoschild.ContentPatcher"
-  },
+  "Name": "(CP) Stoned Valley",
+  "Author": "Brenden",
+  "Version": "1.0.0",
+  "UniqueID": "DookieMaster.StonedValley.CP",
+  "MinimumApiVersion": "3.18.0",
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
   "Dependencies": [
-    {
-      "UniqueID": "Pathoschild.ContentPatcher",
-      "MinimumVersion": "2.0.0"
-    }
+    { "UniqueID": "spacechase0.JsonAssets", "IsRequired": true, "MinimumVersion": "1.11.0" },
+    { "UniqueID": "StonedValley.JA.Clothes", "IsRequired": true }
   ]
 }

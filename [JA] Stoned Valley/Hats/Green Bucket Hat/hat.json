@@ -1,7 +1,6 @@
 {
   "Name": "Green Bucket Hat",
-  "DisplayName": "Green Bucket Hat",
-  "Description": "A casual green bucket hat.",
+  "Description": "Happy.",
   "CanPurchase": false,
   "EnableHairDraw": true,
   "ShowHair": true,

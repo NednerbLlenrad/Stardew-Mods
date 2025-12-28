@@ -6,9 +6,9 @@
       "Entries": {
         "StonedValley.HeavyBong": {
           "Name": "StonedValley.HeavyBong",
-          "DisplayName": "Heavy Bong",
-          "Description": "A new meaning to bong hits.",
-          "Type": 2,                       
+          "DisplayName": "{{i18n: StonedValley.HeavyBong.name }}",
+          "Description": "{{i18n: StonedValley.HeavyBong.description }}",
+          "Type": 2,
           "MinDamage": 40,
           "MaxDamage": 55,
           "Knockback": 0.3,
@@ -22,9 +22,9 @@
         },
         "StonedValley.SherlockDagger": {
           "Name": "StonedValley.SherlockDagger",
-          "DisplayName": "Sherlock Pipe",
-          "Description": "A curved glass ‘dagger’—quick pokes, big crits.",
-          "Type": 1,                         
+          "DisplayName": "{{i18n: StonedValley.SherlockDagger.name }}",
+          "Description": "{{i18n: StonedValley.SherlockDagger.description }}",
+          "Type": 1,
           "MinDamage": 20,
           "MaxDamage": 35,
           "Knockback": 0.2,
@@ -38,9 +38,9 @@
         },
         "StonedValley.DabPick": {
           "Name": "StonedValley.DabPick",
-          "DisplayName": "Dab Pick",
-          "Description": "A razor-thin pick for precise strikes.",
-          "Type": 0,                        
+          "DisplayName": "{{i18n: StonedValley.DabPick.name }}",
+          "Description": "{{i18n: StonedValley.DabPick.description }}",
+          "Type": 0,
           "MinDamage": 30,
           "MaxDamage": 45,
           "Knockback": 0.25,

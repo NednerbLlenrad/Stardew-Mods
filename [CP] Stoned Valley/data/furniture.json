@@ -4,25 +4,26 @@
       "Action": "EditData",
       "Target": "Data/Furniture",
       "Entries": {
-        "StonedValley.Clear_Piece": "Clear_Piece/decor/1 2/1 1/1/200/-1/Clear Piece/0/StonedValley_Furniture",
-        "StonedValley.Blue_Piece": "Blue_Piece/decor/1 2/1 1/1/200/-1/Blue Piece/1/StonedValley_Furniture",
-        "StonedValley.Pink_Piece": "Pink_Piece/decor/1 2/1 1/1/200/-1/Pink Piece/2/StonedValley_Furniture",
-        "StonedValley.Green_Piece": "Green_Piece/decor/1 2/1 1/1/200/-1/Green Piece/3/StonedValley_Furniture",
-        "StonedValley.Ashtray": "Ashtray/decor/1 1/1 1/1/200/-1/Ashtray/8/StonedValley_Furniture",
+        "StonedValley.Clear_Piece":            "Clear_Piece/decor/1 2/1 2/1/200/-1/{{i18n: StonedValley.Clear_Piece.name }}/0/StonedValley_Furniture",
+        "StonedValley.Blue_Piece":             "Blue_Piece/decor/1 2/1 2/1/200/-1/{{i18n: StonedValley.Blue_Piece.name }}/1/StonedValley_Furniture",
+        "StonedValley.Pink_Piece":             "Pink_Piece/decor/1 2/1 2/1/200/-1/{{i18n: StonedValley.Pink_Piece.name }}/2/StonedValley_Furniture",
+        "StonedValley.Green_Piece":            "Green_Piece/decor/1 2/1 2/1/200/-1/{{i18n: StonedValley.Green_Piece.name }}/3/StonedValley_Furniture",
+        "StonedValley.Ashtray":                "Ashtray/decor/1 1/1 1/1/200/-1/{{i18n: StonedValley.Ashtray.name }}/32/StonedValley_Furniture",
 
-        "StonedValley.Cannabis_Flag": "Cannabis_Flag/painting/3 2/3 2/1/500/-1/Cannabis Flag/4/StonedValley_Furniture",
-        "StonedValley.Pyramids_Tapestry": "Pyramids_Tapestry/painting/3 2/3 2/1/500/-1/Pyramids Tapestry/20/StonedValley_Furniture",
-        "StonedValley.Peace_Sign": "Peace_Sign/painting/1 1/1 1/1/1000/-1/Peace Sign/31/StonedValley_Furniture",
+        "StonedValley.Cannabis_Flag":          "Cannabis_Flag/painting/3 2/3 2/1/500/-1/{{i18n: StonedValley.Cannabis_Flag.name }}/4/StonedValley_Furniture",
+        "StonedValley.Pyramids_Tapestry":      "Pyramids_Tapestry/painting/3 2/3 2/1/500/-1/{{i18n: StonedValley.Pyramids_Tapestry.name }}/36/StonedValley_Furniture",
+        "StonedValley.Peace_Sign":             "Peace_Sign/painting/1 1/1 1/1/1000/-1/{{i18n: StonedValley.Peace_Sign.name }}/39/StonedValley_Furniture",
 
-        "StonedValley.Purple_Mushroom_Poster": "Purple_Mushroom_Poster/painting/1 2/2 2/1/2000/-1/Purple Mushroom Poster/36/StonedValley_Furniture",
-        "StonedValley.Flower_Patchwork": "Flower_Patchwork/painting/2 2/2 2/1/2000/-1/Flower Patchwork/37/StonedValley_Furniture",
-        "StonedValley.Rasta_Stripes": "Rasta_Stripes/painting/3 2/3 2/1/2000/-1/Rasta Stripes/52/StonedValley_Furniture",
+        "StonedValley.Purple_Mushroom_Poster": "Purple_Mushroom_Poster/painting/1 2/1 2/1/2000/-1/{{i18n: StonedValley.Purple_Mushroom_Poster.name }}/68/StonedValley_Furniture",
+        "StonedValley.Flower_Patchwork":       "Flower_Patchwork/painting/2 2/2 2/1/2000/-1/{{i18n: StonedValley.Flower_Patchwork.name }}/69/StonedValley_Furniture",
+        "StonedValley.Rasta_Stripes":          "Rasta_Stripes/painting/3 2/3 2/1/2000/-1/{{i18n: StonedValley.Rasta_Stripes.name }}/100/StonedValley_Furniture",
 
-        "StonedValley.Bead_Curtain": "Bead_Curtain/painting/1 2/1 2/1/2000/-1/Bead Curtain/7/StonedValley_Furniture",
-        "StonedValley.Wall_Clock": "Wall_Clock/painting/1 1/1 1/1/1000/-1/420 Clock/39/StonedValley_Furniture",
-        "StonedValley.Vinyl_Record": "Vinyl_Record/painting/1 1/1 1/1/1000/-1/Vinyl Record/23/StonedValley_Furniture",
+        "StonedValley.Bead_Curtain":           "Bead_Curtain/painting/1 2/1 2/1/2000/-1/{{i18n: StonedValley.Bead_Curtain.name }}/7/StonedValley_Furniture",
+        "StonedValley.Wall_Clock":             "Wall_Clock/painting/1 1/1 1/1/1000/-1/{{i18n: StonedValley.Wall_Clock.name }}/55/StonedValley_Furniture",
+        "StonedValley.Munchie_Madness":        "Munchie_Madness/painting/1 2/1 2/1/2000/-1/{{i18n: StonedValley.Munchie_Madness.name }}/71/StonedValley_Furniture",
 
-        "StonedValley.Reefer_Madness_Poster": "Reefer_Madness_Poster/painting/1 2/1 2/1/2000/-1/Reefer Madness Poster/47/StonedValley_Furniture"
+        "StonedValley.Framed_Hemp_Leaf":       "Framed_Hemp_Leaf/painting/1 1/1 1/1/1000/-1/{{i18n: StonedValley.Framed_Hemp_Leaf.name }}/103/StonedValley_Furniture",
+        "StonedValley.Hemp_Leaf_Light":        "Hemp_Leaf_Light/painting/1 1/1 1/1/1000/-1/{{i18n: StonedValley.Hemp_Leaf_Light.name }}/119/StonedValley_Furniture"
       }
     }
   ]

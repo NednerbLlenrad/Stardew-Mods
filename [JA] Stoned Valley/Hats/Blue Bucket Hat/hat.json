@@ -1,7 +1,6 @@
 {
   "Name": "Blue Bucket Hat",
-  "DisplayName": "Blue Bucket Hat",
-  "Description": "A casual blue bucket hat.",
+  "Description": "Has a little flower.",
   "CanPurchase": false,
   "EnableHairDraw": true,
   "ShowHair": true,

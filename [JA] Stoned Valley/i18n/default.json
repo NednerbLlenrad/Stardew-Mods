@@ -1,0 +1,21 @@
+{
+  // ===== HATS =====
+  "Black Bucket Hat.name": "Black Bucket Hat",
+  "Black Bucket Hat.description": "Simple and clean.",
+
+  "Blue Bucket Hat.name": "Blue Bucket Hat",
+  "Blue Bucket Hat.description": "A casual blue bucket hat.",
+
+  "Green Bucket Hat.name": "Green Bucket Hat",
+  "Green Bucket Hat.description": "A casual green bucket hat.",
+
+  // ===== SHIRTS =====
+  "Striped Hoodie.name": "Striped Hoodie",
+  "Striped Hoodie.description": "Cozy stripes.",
+
+  "Blue Hemp Shirt.name": "Blue Hemp Shirt",
+  "Blue Hemp Shirt.description": "Soft hemp weave.",
+
+  "Tie Dye Shirt.name": "Tie-Dye Shirt",
+  "Tie Dye Shirt.description": "Hand-dyed swirl of colors."
+}

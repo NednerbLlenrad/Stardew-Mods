@@ -1,8 +1,7 @@
 {
   "Name": "[JA] Stoned Valley Clothes",
   "Author": "Brenden",
-  "Version": "1.0.0",
-  "Description": "Adds bucket hats and shirts; craft shirts via buds + cloth.",
+  "Version": "0.1.0",
   "UniqueID": "StonedValley.JA.Clothes",
   "MinimumApiVersion": "3.18.0",
   "UpdateKeys": [],

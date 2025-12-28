@@ -1,0 +1,19 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "StonedValley.AlbumBundle_MBPelicanF":      "AlbumBundle_MBPelicanF/painting/1 2/1 2/1/3000/-1/{{i18n: StonedValley.AlbumBundle_MBPelicanF.name }}/0/StonedValley_Records",
+        "StonedValley.AlbumBundle_RandomMelodies":  "AlbumBundle_RandomMelodies/painting/1 2/1 2/1/3000/-1/{{i18n: StonedValley.AlbumBundle_RandomMelodies.name }}/1/StonedValley_Records",
+        "StonedValley.AlbumBundle_IGOR":            "AlbumBundle_IGOR/painting/1 2/1 2/1/3000/-1/{{i18n: StonedValley.AlbumBundle_IGOR.name }}/2/StonedValley_Records",
+        "StonedValley.AlbumBundle_Parsnipanoid":    "AlbumBundle_Parsnipanoid/painting/1 2/1 2/1/3000/-1/{{i18n: StonedValley.AlbumBundle_Parsnipanoid.name }}/3/StonedValley_Records",
+
+        "StonedValley.AlbumBundle_DarkSideCalico":  "AlbumBundle_DarkSideCalico/painting/1 2/1 2/1/3500/-1/{{i18n: StonedValley.AlbumBundle_DarkSideCalico.name }}/8/StonedValley_Records",
+        "StonedValley.AlbumBundle_RemainInLight":   "AlbumBundle_RemainInLight/painting/1 2/1 2/1/3000/-1/{{i18n: StonedValley.AlbumBundle_RemainInLight.name }}/9/StonedValley_Records",
+        "StonedValley.AlbumBundle_TheClucknic":     "AlbumBundle_TheClucknic/painting/1 2/1 2/1/3200/-1/{{i18n: StonedValley.AlbumBundle_TheClucknic.name }}/10/StonedValley_Records",
+        "StonedValley.AlbumBundle_JunimoExperience":"AlbumBundle_JunimoExperience/painting/1 2/1 2/1/3200/-1/{{i18n: StonedValley.AlbumBundle_JunimoExperience.name }}/11/StonedValley_Records"
+      }
+    }
+  ]
+}
