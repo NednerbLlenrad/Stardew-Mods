@@ -1,9 +1,8 @@
 {
   "Name": "Striped Hoodie",
   "Description": "Cozy stripes.",
-  "HasFemaleVariant": true,
+  "HasFemaleVariant": false,
   "Price": 1000,
   "Dyeable": false,
-  "Texture": "shirts/Striped Hoodie/male.png",
-  "FemaleTexture": "shirts/Striped Hoodie/female.png"
+  "Texture": "shirts/Striped Hoodie/male.png"
 }

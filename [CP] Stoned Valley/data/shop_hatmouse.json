@@ -5,14 +5,28 @@
       "When": { "HasMod": "spacechase0.JsonAssets, StonedValley.JA.Clothes" },
       "Action": "EditData",
       "Target": "Data/Shops",
-      "PatchMode": "Merge",
+      "TargetField": [ "HatMouse", "Items" ],
       "Entries": {
-        "HatMouse": {
-          "Items": [
-            { "Id": "SV.Hat.BlackBucket", "ItemId": "{{spacechase0.JsonAssets/HatId:Black Bucket Hat}}", "Price": 1000, "MaxSold": -1, "IgnoreShopPriceModifiers": true },
-            { "Id": "SV.Hat.BlueBucket",  "ItemId": "{{spacechase0.JsonAssets/HatId:Blue Bucket Hat}}",  "Price": 1000, "MaxSold": -1, "IgnoreShopPriceModifiers": true },
-            { "Id": "SV.Hat.GreenBucket", "ItemId": "{{spacechase0.JsonAssets/HatId:Green Bucket Hat}}", "Price": 1000, "MaxSold": -1, "IgnoreShopPriceModifiers": true }
-          ]
+        "SV.Hat.BlackBucket": {
+          "Id": "SV.Hat.BlackBucket",
+          "ItemId": "(H){{spacechase0.JsonAssets/HatId:Black Bucket Hat}}",
+          "Price": 1000,
+          "MaxSold": -1,
+          "IgnoreShopPriceModifiers": true
+        },
+        "SV.Hat.BlueBucket": {
+          "Id": "SV.Hat.BlueBucket",
+          "ItemId": "(H){{spacechase0.JsonAssets/HatId:Blue Bucket Hat}}",
+          "Price": 1000,
+          "MaxSold": -1,
+          "IgnoreShopPriceModifiers": true
+        },
+        "SV.Hat.GreenBucket": {
+          "Id": "SV.Hat.GreenBucket",
+          "ItemId": "(H){{spacechase0.JsonAssets/HatId:Green Bucket Hat}}",
+          "Price": 1000,
+          "MaxSold": -1,
+          "IgnoreShopPriceModifiers": true
         }
       }
     }

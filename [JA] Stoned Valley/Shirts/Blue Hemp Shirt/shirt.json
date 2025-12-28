@@ -1,9 +1,8 @@
 {
   "Name": "Blue Hemp Shirt",
   "Description": "Soft hemp weave.",
-  "HasFemaleVariant": true,
+  "HasFemaleVariant": false,
   "Price": 1000,
   "Dyeable": false,
-  "Texture": "shirts/Blue Hemp Shirt/female.png",
-  "FemaleTexture": "shirts/Blue Hemp Shirt/female.png"
+  "Texture": "shirts/Blue Hemp Shirt/male.png"
 }

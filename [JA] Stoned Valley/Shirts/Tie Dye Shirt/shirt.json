@@ -1,9 +1,8 @@
 {
   "Name": "Tie Dye Shirt",
   "Description": "Hand-dyed swirl of colors.",
-  "HasFemaleVariant": true,
+  "HasFemaleVariant": false,
   "Price": 1000,
   "Dyeable": false,
-  "Texture": "shirts/Tie Dye Shirt/male.png",
-  "FemaleTexture": "shirts/Tie Dye Shirt/female.png"
+  "Texture": "shirts/Tie Dye Shirt/male.png"
 }

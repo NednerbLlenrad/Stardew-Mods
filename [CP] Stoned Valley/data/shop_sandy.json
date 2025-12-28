@@ -1,36 +1,44 @@
 {
-  "Format": "1.25.0",
   "Changes": [
     {
       "Action": "EditData",
       "Target": "Data/Shops",
       "TargetField": [ "Sandy", "Items" ],
-      "When": {
-        "HasMod:spacechase0.JsonAssets": true,
-        "HasMod:StonedValley.JA.Clothes": true
-      },
       "Entries": {
+        "SV.Clear_Piece":          { "Id": "SV.Clear_Piece",          "ItemId": "(F)StonedValley.Clear_Piece",            "Price": 250 },
+        "SV.Blue_Piece":           { "Id": "SV.Blue_Piece",           "ItemId": "(F)StonedValley.Blue_Piece",             "Price": 500 },
+        "SV.Pink_Piece":           { "Id": "SV.Pink_Piece",           "ItemId": "(F)StonedValley.Pink_Piece",             "Price": 500 },
+        "SV.Green_Piece":          { "Id": "SV.Green_Piece",          "ItemId": "(F)StonedValley.Green_Piece",            "Price": 500 },
+        "SV.Ashtray":              { "Id": "SV.Ashtray",              "ItemId": "(F)StonedValley.Ashtray",                "Price": 100 },
 
-        "SV.Clear_Piece":          { "Id": "SV.Clear_Piece",          "ItemId": "(F)StonedValley.Clear_Piece",           "Price": 250 },
-        "SV.Blue_Piece":           { "Id": "SV.Blue_Piece",           "ItemId": "(F)StonedValley.Blue_Piece",            "Price": 500 },
-        "SV.Pink_Piece":           { "Id": "SV.Pink_Piece",           "ItemId": "(F)StonedValley.Pink_Piece",            "Price": 500 },
-        "SV.Green_Piece":          { "Id": "SV.Green_Piece",          "ItemId": "(F)StonedValley.Green_Piece",           "Price": 500 },
-        "SV.Ashtray":              { "Id": "SV.Ashtray",              "ItemId": "(F)StonedValley.Ashtray",               "Price": 100 },
+        "SV.Peace_Sign":           { "Id": "SV.Peace_Sign",           "ItemId": "(F)StonedValley.Peace_Sign",             "Price": 500 },
+        "SV.Wall_Clock":           { "Id": "SV.Wall_Clock",           "ItemId": "(F)StonedValley.Wall_Clock",             "Price": 500 },
 
-        "SV.Peace_Sign":           { "Id": "SV.Peace_Sign",           "ItemId": "(F)StonedValley.Peace_Sign",            "Price": 500 },
-        "SV.Wall_Clock":           { "Id": "SV.Wall_Clock",           "ItemId": "(F)StonedValley.Wall_Clock",            "Price": 500 },
-        "SV.Vinyl_Record":         { "Id": "SV.Vinyl_Record",         "ItemId": "(F)StonedValley.Vinyl_Record",          "Price": 500 },
 
-        "SV.Cannabis_Flag":        { "Id": "SV.Cannabis_Flag",        "ItemId": "(F)StonedValley.Cannabis_Flag",         "Price": 2000 },
-        "SV.Pyramids_Tapestry":    { "Id": "SV.Pyramids_Tapestry",    "ItemId": "(F)StonedValley.Pyramids_Tapestry",     "Price": 2000 },
-        "SV.Purple_Mushroom_Post": { "Id": "SV.Purple_Mushroom_Post", "ItemId": "(F)StonedValley.Purple_Mushroom_Poster","Price": 1000 },
-        "SV.Flower_Patchwork":     { "Id": "SV.Flower_Patchwork",     "ItemId": "(F)StonedValley.Flower_Patchwork",      "Price": 1500 },
-        "SV.Rasta_Stripes":        { "Id": "SV.Rasta_Stripes",        "ItemId": "(F)StonedValley.Rasta_Stripes",         "Price": 2000 },
-        "SV.Bead_Curtain":         { "Id": "SV.Bead_Curtain",         "ItemId": "(F)StonedValley.Bead_Curtain",          "Price": 500 },
+        "SV.Cannabis_Flag":        { "Id": "SV.Cannabis_Flag",        "ItemId": "(F)StonedValley.Cannabis_Flag",          "Price": 2000 },
+        "SV.Pyramids_Tapestry":    { "Id": "SV.Pyramids_Tapestry",    "ItemId": "(F)StonedValley.Pyramids_Tapestry",      "Price": 2000 },
+        "SV.Purple_Mushroom_Post": { "Id": "SV.Purple_Mushroom_Post", "ItemId": "(F)StonedValley.Purple_Mushroom_Poster", "Price": 1000 },
+        "SV.Flower_Patchwork":     { "Id": "SV.Flower_Patchwork",     "ItemId": "(F)StonedValley.Flower_Patchwork",       "Price": 1500 },
+        "SV.Rasta_Stripes":        { "Id": "SV.Rasta_Stripes",        "ItemId": "(F)StonedValley.Rasta_Stripes",          "Price": 2000 },
+        "SV.Bead_Curtain":         { "Id": "SV.Bead_Curtain",         "ItemId": "(F)StonedValley.Bead_Curtain",           "Price": 500 },
 
-        "SV.Shirt.TieDye":         { "Id": "SV.Shirt.TieDye",         "ItemId": "(C){{spacechase0.JsonAssets/ClothingId:Tie Dye Shirt}}",    "Price": 600 },
-        "SV.Shirt.BlueHemp":       { "Id": "SV.Shirt.BlueHemp",       "ItemId": "(C){{spacechase0.JsonAssets/ClothingId:Blue Hemp Shirt}}",  "Price": 700 },
-        "SV.Shirt.HoodieStriped":  { "Id": "SV.Shirt.HoodieStriped",  "ItemId": "(C){{spacechase0.JsonAssets/ClothingId:Striped Hoodie}}",   "Price": 1200 }
+        "SV.Shirt.TieDye": {
+          "Id": "SV.Shirt.TieDye",
+          "ItemId": "(S){{spacechase0.JsonAssets/ShirtsId:Tie Dye Shirt}}",
+          "Price": 600
+        },
+        "SV.Shirt.BlueHemp": {
+          "Id": "SV.Shirt.BlueHemp",
+          "ItemId": "(S){{spacechase0.JsonAssets/ShirtsId:Blue Hemp Shirt}}",
+          "Price": 700
+        },
+        "SV.Shirt.HoodieStriped": {
+          "Id": "SV.Shirt.HoodieStriped",
+          "ItemId": "(S){{spacechase0.JsonAssets/ShirtsId:Striped Hoodie}}",
+          "Price": 1200
+        }
+
+
       }
     }
   ]
